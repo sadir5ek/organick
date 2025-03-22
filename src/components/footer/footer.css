@@ -1,4 +1,3 @@
-/* General Footer Styles */
 .footer-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -7,7 +6,6 @@
     
 }
 
-/* Newsletter Section */
 .block {
     position: relative;
     text-align: center;
@@ -69,7 +67,7 @@
     background-color: #e08e0b;
 }
 
-/* Footer Main Content */
+ Footer Main Content  
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -166,4 +164,7 @@
 .logo1 img{
     width: 35px;
     margin-left: 130px;
-}
+} 
+
+
+
