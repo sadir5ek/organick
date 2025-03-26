@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blokcard{
+    margin: auto;
+    width: 1400px;
+    position: relative;
+}
+.imgblock1{
+    width: 1400px;
+    height: 600px;
+}
+
+.karrdd1{
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    border-radius: 35px;
+    margin-top: 440px;
+    margin-left: 190px;
+    background-color: whitesmoke;
+}
+.karrdd1 h1{
+    font-family: Roboto;
+font-weight: 800;
+font-size: 40px;
+margin-left: 48px;
+margin-top: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+}
+.karrdd1 p{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+letter-spacing: 0%;
+color: #525C60;
+margin-left: 50px;
+margin-top: 25px;
+}
+.post{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.post h4{
+    font-family: Roboto;
+font-weight: 600;
+font-size: 19px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+margin-left:50px ;
+}
+.post h5{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+margin-top: 1px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+margin-left: 20px;
+}
+.blokcard .ppp{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+letter-spacing: 0%;
+color: #525C60;
+margin-top: 180px;
+display: flex;
+justify-content: center;
+}
+.blokcard .all {
+    font-family: Roboto;
+font-weight: 800;
+font-size: 44px;
+margin-left: 302px;
+margin-top: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+}
+.blokcard .pp{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    color: #525C60;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.blokcard ul {
+    margin-top: 24px;
+}
+.blokcard ul li{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    color: #525C60;
+    margin-left: 342px;
+    margin-top: 7px;
+}
+.karrdd2{
+    width: 790px;
+padding-top: 50px;
+padding-right: 49px;
+padding-bottom: 50px;
+padding-left: 89px;
+border-radius: 30px;
+line-height: 30px;
+background-color: #F1EDEA;
+margin-left: 300px;
+margin-top: 30px;
+}
+.alls{
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 302px;
+    margin-top: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #274C5B;
+}
+.blokcard ol{
+    margin-top: 15px;
+}
+.blokcard ol li {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    color: #525C60;
+    margin-left: 320px;
+    margin-top: 7px;
+}
+
+
+ 

@@ -1,0 +1,37 @@
+.blog11 img{
+    width: 1400px;
+   position: relative;
+}
+.b11{
+    position: absolute;
+    width: 90px;
+    height:90px;
+    right: 450px;
+    margin-top: 13px;
+}
+.b22{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    margin-top: 50px;
+    right: 270px;
+}
+.b33{
+    position: absolute;
+    width: 120px;
+    height:120px;
+    margin-top: 60px;
+    left: 270px;
+}
+.b44{
+    position: absolute;
+    width: 85px;
+    height:85px;
+    left: 330px;
+}
+.b55{
+    position: absolute;
+    margin-left: 455px;
+    font-size: 44px;
+    margin-top: 130px;
+}

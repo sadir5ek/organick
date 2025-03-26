@@ -6,25 +6,20 @@ import icon1 from '../../assets/insta.svg'
 import icon2 from '../../assets/2 (1).svg'
 import icon3 from '../../assets/3 (1).svg'
 import icon4 from '../../assets/4.svg'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <div className='footer-container'>
-      
-      {/* Newsletter Section */}
-      <div className='block'>
+    <div className='block'>
         <img src={image} alt="Newsletter" />
-        <div className="text-overlay">
-          <h1>Subscribe to <br /> our Newsletter</h1>
-        </div>
         <div className="input-container">
+        <h1>Subscribe to <br /> our Newsletter</h1>
           <input type="text" placeholder='Your Email Address' className='input'/>
           <button className='Subscribe'>Subscribe</button>
         </div>
       </div>
-
-      {/* Footer Content */}
-      <div className="footer-content">
+    <div className="footer-content">
           <div className="footer-section1">
             <h3>Contact Us</h3>
             <p><strong>Email:</strong> needhelp@organick.com</p>
@@ -34,8 +29,10 @@ function Footer() {
 
           <div className="footer-center">
             <div className='logo1'>
+            <Link to="/" className='logo1'>
             <img src={logo1} />
             <h2>Organick</h2>
+            </Link>
             </div>
             <p>Simply dummy text of the printing and typesetting industry.</p>
             <p>Lorem Ipsum simply dummy text of the printing</p>
@@ -51,17 +48,15 @@ function Footer() {
           <div className="footer-section">
             <h3>Utility Pages</h3>
             <ul>
-              <li><a href="#">Style Guide</a></li>
-              <li><a href="#">Protected</a></li>
-              <li><a href="#">Page Not Found</a></li>
-              <li><a href="#">Changelog</a></li>
-              <li><a href="#">Licenses</a></li>
+              <li><Link to="fotcard1">Style Guide</Link></li>
+              <li><Link to="fotcard2">Protected</Link></li>
+              <li><Link to="/fotcard3">Page Not Found</Link></li>
+              <li><Link to="fotcard4">Changelog</Link></li>
+              <li><Link to="fotcard5">Licenses</Link></li>
             </ul>
           </div>
       </div>
-
-      {/* Footer Bottom */}
-      <div className="footer-bottom">
+     <div className="footer-bottom">
           <p>Copyright © Organick | Designed by <a href="#">VictorFlow</a> - Powered by <a href="#">Webflow</a></p>
       </div>
 

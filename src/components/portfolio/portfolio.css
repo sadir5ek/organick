@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portfolio{
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+.portfolio1 .St{
+    width: 1400px;
+}
+.rtv1{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 370px;
+}
+.rtv2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+   left: 420px;
+   margin-top: 60px;
+}.rtv3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 440px;
+    margin-top: 160px;
+}.rtv4{
+    font-size: 40px;
+    margin-left: 496px;
+    margin-top: 150px;
+    position: absolute;
+}
+.portfolio2 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 60px;
+    justify-content: center; 
+    margin-top: 80px;
+  }
+  .portfolio2 a{
+    text-decoration: none;
+  }
+  .card {
+    background-color: whitesmoke;
+    border: 1px solid rgb(232, 230, 230);
+    margin-top: 30px;
+    width: 400px;
+    height:450px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card img{
+    margin-left: -20px;
+    margin-top: -20px;
+    border-radius: 30px;
+    width: 400px;
+    height:350px;
+  }
+  .card i{
+    font-family: Yellowtail;
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #7EB693;
+  }
+  .card h1{
+    font-family: Roboto;
+font-weight: 800;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+margin-top: 10px;
+  }
+  .card div{
+    color: whitesmoke;
+  }
+  .x{
+    margin-top: 30px;
+    color: white;
+  }

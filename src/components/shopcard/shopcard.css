@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.shopcard{
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+.fotoshop {
+    width: 1400px;
+  }
+  .shopcard1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .frutss{
+    width: 641px;
+    height:641px;
+    background-color: #f9f4f3;
+    margin-left: 80px;
+    border-radius: 30px;
+  }
+  .shopcard1 img {
+    width: 630px;
+    height:630px;
+   margin-left:8px ;
+    margin-top: 5px;
+  }
+  .Millets{
+   font-size: 25px;
+   position: absolute;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   padding: 14px;
+   border-radius: 10px;
+   height: 45px;
+   color: white;
+   background-color: #274C5B;
+   margin-left: 70px;
+   margin-top: 60px;
+  }
+  .frutscard{
+   margin-top: -40px;
+   margin-left: 40px;
+  }
+  .frutscard h1 {
+    color: #274C5B;
+    font-size: 55px;
+    font-weight: 900;
+  }
+  .frutscard .stur{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .frutscard .oldpris {
+    color: #B8B8B8;
+    text-decoration: line-through;
+  }
+  .prise{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .frutscard p{
+    color: #274C5B;
+    line-height: 26px;
+    margin-top: 10px;
+  }
+  .prise h3 {
+    color: #FF6347; 
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  .buttons h3{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+color: #274C5B;
+  }
+   
+  .quantity-controls {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 60px;
+    
+  }
+  
+  .quantity-controls input {
+    width: 70px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    height: 50px;
+  }
+  
+  .quantity-controls input::-webkit-outer-spin-button,
+  .quantity-controls input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1px;
+    top: 8px;
+  }
+  
+  .arrows button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #cecfcf;
+  }
+  
+  .arrows button:hover {
+    color: #FF6347;
+  }
+  .add-to-cart h3{
+    color: white;
+    font-size: 15px;
+  }
+  .add-to-cart {
+    background: #274C5B;
+    color: white;
+    border: none;
+    padding: 15px 27px;
+    border-radius: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    transition: all 0.3s ease-in-out;
+    margin-left: 50px;
+}
+.add-to-cart:hover {
+    color: #274C5B;
+    background: white;
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.add-to-cart h4 {
+    margin: 0;
+    font-size: 18px;
+}
+  
+  .shopcard2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+  }
+  
+  .product-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .info-button {
+    background-color: #274C5B;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .info-button.active {
+    background-color: #FF6347;
+  }
+  
+  .info-button:hover {
+    background-color: #FF6347;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  .text-content p{
+    margin-top: 20px;
+    line-height: 25px;
+    color: #274C5B;
+  }
+  .shopcard3 {
+    margin-top: 40px;
+    margin-left: -80px;
+   
+  }
+  
+  .shopcard3 .hh {
+    color: #274C5B;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 90px;
+  }
+  
+  .shopcard3 .flowers {
+    display: flex;
+    gap: 70px;
+    margin-left: -0px;
+  }
+  
+ .shopcart h1{
+    position: absolute;
+    color: #274C5B;
+    font-weight: 900;
+    font-size: 45px;
+    margin-left: 610px;
+    margin-top: 130px;
+ }
+  
+ .fotto11{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: 190px;
+    right: 340px;
+}
+.fotto22{
+    position: absolute;
+    width: 90px;
+    height:90px;
+    margin-top: 200px;
+    left: 710px;
+}
+.fotto33{
+    position: absolute;
+    width: 70px;
+    height:70px;
+    margin-top: 30px;
+    left: 600px;
+}
+.fotto44{
+    position: absolute;
+    width: 130px;
+    height:130px;
+    margin-top: 20px;
+    right: 40px;
+}
+
+.fotto111{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-top: 190px;
+  right: 330px;
+}
+.fotto212{
+  position: absolute;
+  width: 90px;
+  height:90px;
+  margin-top: 200px;
+  left: 550px;
+}
+.fotto313{
+  position: absolute;
+  width: 70px;
+  height:70px;
+  margin-top: 30px;
+  left: 520px;
+}
+.fotto414{
+  position: absolute;
+  width: 130px;
+  height:130px;
+  margin-top: 20px;
+  right: 260px;
+}
