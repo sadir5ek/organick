@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pcard{
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+.pk{
+    width: 1400px;
+    height: 650px;
+}
+.pcardd1{
+position: absolute;
+width: 950px;
+height: 250px;
+background: whitesmoke;
+display: flex;
+border-radius: 30px;
+margin-top: 520px;
+margin-left: 205px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pcard1{
+    background-color: white;
+    width: 650px;
+    border-radius: 30px 0px 0px 30px;
+}
+.pcard1 h1{
+    font-size: 37px;
+    color: #274C5B;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.pcard1 p{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    color:#525C60 ;
+}
+.pcard2{
+background-color: rgb(247, 247, 247);
+width: 300px;
+border-radius: 0px 30px 30px 0px ;
+}
+.dsd{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 27px;
+    align-items: center;
+}
+.dsd h3{
+    font-size: 22px;
+    color: #274C5B;
+    margin-left: 10px;
+}
+.dsd p{
+    margin-left: 13px;
+    color: #525C60;
+}
+.pcardd2{
+    margin-top: 180px;
+    width: 1000px;
+   margin-left: 210px;
+}
+.pcardd2 h2{
+font-size: 35px;
+color: #274C5B;
+margin-left: 20px;
+}
+.pcardd2 p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    color: #525C60;
+    margin-top: 10px;
+}
+.pcardd2 img{
+    width: 1000px;
+    height: 500px;
+    margin-top: 18px;
+}
+.pcardd2 h4{
+    margin-left: 340px;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #274C5B;    
+    margin-top: 19px;
+}
+.pcardd2 h3{
+    font-size: 29px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #274C5B;    
+    margin-top: 19px;
+    margin-left: 20px; 
+}

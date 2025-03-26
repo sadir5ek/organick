@@ -1,3 +1,4 @@
+
 import image1 from '../../assets/About/1.svg'
 import image2 from '../../assets/About/2.svg'
 import image3 from '../../assets/About/3.svg'
@@ -50,3 +51,5 @@ export const cards = [
     profession: 'Farmer',
   },
 ];
+
+

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shop{
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+.shop1 h1{
+    position: absolute;
+    color: #274C5B;
+    font-weight: 900;
+    font-size: 45px;
+    margin-left: 650px;
+    margin-top: 130px;
+}
+.fotto1{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    left: 216px;
+}
+.fotto2{
+    position: absolute;
+    width: 90px;
+    height:90px;
+    margin-top: 200px;
+    right: -10px;
+}
+.fotto3{
+    position: absolute;
+    width: 70px;
+    height:70px;
+    margin-top: 230px;
+    right: 156px;
+}
+.fotto4{
+    position: absolute;
+    width: 130px;
+    height:130px;
+    margin-top: 20px;
+    right: 140px;
+}
+
+
+.shop1 img {
+    width: 100%;
+    
+}
+
+.shop2{
+    display: flex;
+    margin-left: -46px;
+    
+}
+.flowerss {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, auto); 
+    gap:50px;
+    margin-top: 20px;
+}
