@@ -15,6 +15,7 @@
 .surot-banner {
     width: 100%;
     position: relative;
+    margin-top: 80px;
 }
 
 .surot1 {
@@ -27,36 +28,32 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 0;
-    margin-left: -656px;
+     margin-left: -656px;
+      margin-top: -70px;
 }
-
+ 
 .surot-images {
     position: relative;
 }
-
-.surot2 {
-   margin-left: -120px;
-}
-
+ 
 .surot3 {
     position: absolute;
-    right: 570px;
+    right: 530px;
     top: 370px;
+    z-index: -10;
   
 }
 
 .surot4 {
     position: absolute;
     width: 120px;
-    /* left: 995px; */
     right: -200px;
-    top: 190px;
+    top: 220px;
 }
 
 .surot-text {
     max-width: 500px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .surot-text h1 {
@@ -106,6 +103,7 @@
 
 .surot-why {
     line-height: 40px;
+    margin-top: 120px;
 }
 
 .surot-why-content {
@@ -146,7 +144,7 @@
 
 
 .surot-team {
-    margin-top: 190px;
+    margin-top: 150px;
     text-align: center;
     gap: 70px;
 }
@@ -166,7 +164,6 @@
 .surot-team-container {
     display: flex;
     gap: 60px;
-    flex-wrap: wrap;
 }
 
 .surot-team-card {
@@ -218,7 +215,7 @@
     color: #4A4A4A;
 }
 .surot-cards-text{
-    margin-top: 300px;
+    margin-top: 200px;
     text-align: center;
 }
 .surot-cards-text h1{

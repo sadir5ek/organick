@@ -92,7 +92,7 @@ function Header() {
                      </select>
                   </li>
                   <li><Link to="/shop">Shop</Link></li>
-                  <li><Link to="/news">News</Link></li>
+                  <li><Link to="/news">Contact</Link></li>
                </ul>
             </div>
             <div className="cart-container">
