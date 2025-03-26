@@ -135,6 +135,25 @@ function Home() {
         <div className="block5-center">
           <i>Testimonial</i>
           <h1>What Our Customer Saying?</h1>
+          <div class="carousel-container">
+  <div class="carousel">
+    <div class="item active">
+      <img src="https://bit.ly/34xczKy" alt="Image 1" />
+      <p class="caption">Caption for Image 1</p>
+    </div>
+    <div class="item">
+      <img src="https://bit.ly/3lkp5DW" alt="Image 2" />
+      <p class="caption">Caption for Image 2</p>
+    </div>
+    <div class="item">
+      <img src="https://bit.ly/3iMHuI1" alt="Image 3" />
+      <p class="caption">Caption for Image 3</p>
+    </div>
+  </div>
+  <button class="btn prev">Prev</button>
+  <button class="btn next">Next</button>
+  <div class="dots"></div>
+  </div>
         </div>
         <div className="block5-left">
           <img src={block1} className='block11' />

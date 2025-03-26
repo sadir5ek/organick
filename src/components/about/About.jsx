@@ -103,6 +103,27 @@ function About() {
           </div>
         ))}
       </div>
+      <div className="dfghjklkj">
+        <h2>sdvfbgnhjmk,
+          cfvbgnmk,mnhbg
+          vbghnjm
+          k,kmjnhbgvfcd
+          fvgbhnjmk,kmjnhbgbh
+
+          <nav>mj
+
+
+             mjhgfvcdfvgbhnjmk,l
+          </nav>
+        </h2>
+
+        vbgnhjmk,kmjnhbgvfcd
+        <h1>
+          Background
+          ccccc
+          
+        </h1>
+      </div>
     </div>
   );
 }
