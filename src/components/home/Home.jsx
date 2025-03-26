@@ -33,7 +33,7 @@ import blok2 from '../../assets/Photo (1).png'
 function Home() {
   return (
     <div className='home'>
-      {/* <div className="block1">
+      <div className="blockk1">
         <>
           <img src={group} className='group' />
           <img src={group5} className='group5' />
@@ -45,11 +45,13 @@ function Home() {
           <img src={group8} className='group8' />
         </>
         <div className="cart1">
-          <i className='p1'>100% Natural Food</i>
-          <h1 className='h1'>Choose the best <br />
-            healthier way  <br />
-            of life
-          </h1>
+          <i className='p11'>100% Natural Food</i>
+          <h1 className='h11'>
+            Choose the best <br />
+          healthier way <br />
+          of life</h1> 
+           
+          
           <Link to="about" className='battun'>
             <button className='button1'>
               <h4 className='nows'>Explore Now</h4>
@@ -58,25 +60,7 @@ function Home() {
           </Link>
         </div>
         <img src={foto1} className='foto1' />
-      </div> */}
-   <div className="block1">
-    <div className="cart1">
-        <i className='p1'>100% Natural Food</i>
-        <h1 className='h1'>Choose the best <br />
-            healthier way  <br />
-            of life
-        </h1>
-        <Link to="about" className='battun'>
-            <button className='button1'>
-                <h4 className='nows'>Explore Now</h4>
-                <HiArrowSmRight className='icon1' />
-            </button>
-        </Link>
-    </div>
-    <img src={foto1} className='foto1' />
-</div>
-
-
+      </div>
       <div className="block2">
         <div className="carrd1">
           <i className='natural'>Natural!!</i>
@@ -90,8 +74,8 @@ function Home() {
         <img src={cart1} className='caard1' />
         <img src={cart2} className='caard2' />
       </div>
-      <div className="block3">
-        <div className="surot">
+      <div className="blockk3">
+        <div className="surott">
           <img src={surot} />
         </div>
         <div className="about-us">

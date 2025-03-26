@@ -24,51 +24,51 @@ function Portfolio() {
       </div>
       <div className="portfolio2">
         <Link to="/pcard1">
-        <div className="card">
-            <img src={image1} className="card-image" />
+        <div className="cardt">
+            <img src={image1} className="cardt-image" />
             <div>.</div>
-            <i className="card-title"> Fruits </i>
-            <h1 className="card-description">Green & Tasty Lemon</h1>
+            <i className="cardt-title"> Fruits </i>
+            <h1 className="cardt-description">Green & Tasty Lemon</h1>
           </div>
         </Link>
           <Link to="/pcard2">
-          <div className="card">
-            <img src={image2} className="card-image" />
+          <div className="cardt">
+            <img src={image2} className="cardt-image" />
             <div>.</div>
-            <i className="card-title"> Farmer </i>
-            <h1 className="card-description">Organic Carrot</h1>
+            <i className="cardt-title"> Farmer </i>
+            <h1 className="cardt-description">Organic Carrot</h1>
           </div>
         </Link>
           <Link to="/pcard3">
-          <div className="card">
-            <img src={image3} className="card-image" />
+          <div className="cardt">
+            <img src={image3} className="cardt-image" />
             <div>.</div>
-            <i className="card-title"> Leaf </i>
-            <h1 className="card-description">Organic Betel Leaf</h1>
+            <i className="cardt-title"> Leaf </i>
+            <h1 className="cardt-description">Organic Betel Leaf</h1>
           </div>
         </Link>
           <Link to="/pcard4">
-          <div className="card">
-            <img src={image4} className="card-image" />
+          <div className="cardt">
+            <img src={image4} className="cardt-image" />
             <div>.</div>
-            <i className="card-title"> Fruits </i>
-            <h1 className="card-description">Natural Tommato </h1>
+            <i className="cardt-title"> Fruits </i>
+            <h1 className="cardt-description">Natural Tommato </h1>
           </div>
         </Link>
           <Link to="/pcard5">
-          <div className="card">
-            <img src={image5} className="card-image" />
+          <div className="cardt">
+            <img src={image5} className="cardt-image" />
             <div>.</div>
-            <i className="card-title"> Farmer </i>
-            <h1 className="card-description">Black Raspberry</h1>
+            <i className="cardt-title"> Farmer </i>
+            <h1 className="cardt-description">Black Raspberry</h1>
           </div>
         </Link>
           <Link to="/pcard6">
-          <div className="card">
-            <img src={image6} className="card-image" />
+          <div className="cardt">
+            <img src={image6} className="cardt-image" />
             <div>.</div>
-            <i className="card-title"> Farmer </i>
-            <h1 className="card-description">Honey Orange</h1>
+            <i className="cardt-title"> Farmer </i>
+            <h1 className="cardt-description">Honey Orange</h1>
           </div>
         </Link>
       </div>

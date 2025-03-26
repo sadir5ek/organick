@@ -8,6 +8,7 @@
     width: 1400px;
     margin: auto;
     position: relative;
+    margin-top: 100px;
 }
 .fcard1{
     width: 1400px;
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 100px;
 }
 .fcard1 h1{
 font-size: 40px;
