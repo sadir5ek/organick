@@ -1,6 +1,8 @@
 import React from 'react'
 import './services.css'
 import Video  from './Video.jsx'
+import { Link } from 'react-router-dom';
+
 
 import surot1 from '../../assets/servicess/Banner.jpg'
 import surot2 from '../../assets/servicess/WhatweGrow.svg'
@@ -35,9 +37,9 @@ function Services() {
            
            <img src={surot6} className='surot6' />
            <img src={surot7} className='surot7'/>
-           <a href="">
+           <Link to="/service-single" >
            <button className='btn'>Explore More</button>
-           </a>
+           </Link>
            <Video/>
        </div>
     </div>

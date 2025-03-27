@@ -191,7 +191,7 @@
 }
 
 .surot-card {
-    width: 520px;
+    width: 430px;
     text-align: center;
     background-color: #fff;
     padding: 20px;
@@ -207,12 +207,15 @@
 .surot-card h2 {
     font-size: 20px;
     margin-top: 10px;
+    text-align: start;
     color: #1A3E3E;
 }
 
 .surot-card p {
-    font-size: 14px;
-    color: #4A4A4A;
+    font-size: 16px;
+    color: #7EB693;
+    text-align: start;
+    font-style: italic;
 }
 .surot-cards-text{
     margin-top: 200px;
@@ -236,4 +239,14 @@
     text-align: center;
     color:#525C60;
 
+}
+.tv{
+    cursor: pointer;
+    margin-left: 300px;
+  
+}
+.fb{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 270px;
 }

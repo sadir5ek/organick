@@ -105,6 +105,8 @@ function About() {
             <img src={s.image} alt={s.name} className="surot-card-image" />
             <h2>{s.name}</h2>
             <p>{s.profession}</p>
+            <a href="https://www.facebook.com/?locale=ru_RU"><img src={s.fbook} className='fb' /></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fexplore"> <img src={s.tviter} className='tv' /></a>
           </div>
         ))}
       </div>

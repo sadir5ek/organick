@@ -1,13 +1,11 @@
 import { useState } from "react";
 import "./Video.css"; 
-import art1 from '../../assets/servicess/Photo(4).svg'
 
 const Video = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="video-section">
-     {/* <img src={art1} className="surot1"/> */}
       <div className="content">
         <h3 className="subtitle">Organic Only</h3>
         <h1 className="title">Fresh & Organic Everyday</h1>
@@ -26,7 +24,7 @@ const Video = () => {
            
             <iframe
               className="video-frame"
-              src="https://youtu.be/ZzjqgEw9HxI?si=hylELsVvnC9W4PX3"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
               title="YouTube Video"
               allow="autoplay; encrypted-media"
               allowFullScreen
