@@ -12,14 +12,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Ourteam from "./components/our-team/Ourteam";
 import News from "./components/news/News";
 import Services from "./components/servises/Services";
-import Shopcard from "./components/shopcard/Shopcard";
 import Blogcard from "./components/cards/Blogcard";
 import Blockcard from "./components/cards/Blockcard";
 import Blokcard from "./components/cards/Blokcard";
 import Bloccard from "./components/cards/BLoccard";
 import Blokkcard from "./components/cards/blokkard";
 import Blokard from "./components/cards/Blokard";
-import Card from "./components/card/Card";
 import Pfcard1 from "./components/portfolioCard.jsx/Pfcard1";
 import Pfcard2 from "./components/portfolioCard.jsx/Pfcard2";
 import Pfcard3 from "./components/portfolioCard.jsx/Pfcard3";
@@ -31,6 +29,8 @@ import Fotcard2 from "./components/fotcard/Fotcard2";
 import Fotcard3 from "./components/fotcard/Fotcard3";
 import Fotcard4 from "./components/fotcard/Fotcard4";
 import Fotcard5 from "./components/fotcard/Fotcard5";
+import Shopcard from "./components/shopcard/Shopcard";
+import Card from "./components/card/Card";
 
 export const myRouter = createBrowserRouter([
     {

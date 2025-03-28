@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './home.css'
 import foto1 from '../../assets/homeee/Imaggee.png'
 import group from '../../assets/homeee/Group.svg'
@@ -29,12 +29,38 @@ import food from '../../assets/homeee/Photo (1).jpg'
 import cookis from '../../assets/homeee/Photo (2).jpg'
 import blok1 from '../../assets/Photo91.png'
 import blok2 from '../../assets/Photo (1).png'
+import React, { useState } from 'react';
+import carusel from '../../assets/homeee/carucel.svg'
+import carusel2 from '../../assets/homeee/carusel2.jpg'
+import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
+import Stories from '../Stories/Stories'
+
+
 
 function Home() {
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const images = [
+    "https://bit.ly/34xczKy",
+    "https://bit.ly/3lkp5DW",
+  ];
+
+  const nextSlide = () => {
+    setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setActiveIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
+  };
+  
+  
+
   return (
     <div className='home'>
       <div className="blockk1">
-        <>
+      <>
           <img src={group} className='group' />
           <img src={group5} className='group5' />
           <img src={group2} className='group2' />
@@ -45,6 +71,7 @@ function Home() {
           <img src={group8} className='group8' />
         </>
         <div className="cart1">
+       
           <i className='p11'>100% Natural Food</i>
           <h1 className='h11'>
             Choose the best <br />
@@ -60,6 +87,8 @@ function Home() {
           </Link>
         </div>
         <img src={foto1} className='foto1' />
+      
+       
       </div>
       <div className="block2">
         <div className="carrd1">
@@ -75,6 +104,7 @@ function Home() {
         <img src={cart2} className='caard2' />
       </div>
       <div className="blockk3">
+        <div className="bloock3">
         <div className="surott">
           <img src={surot} />
         </div>
@@ -112,10 +142,15 @@ function Home() {
           </Link>
          
         </div>
+        </div>
+        
+      </div>
+      <div className="b4b4">
+      <i>Categories </i>
+      <h2>Our Products</h2>
       </div>
       <div className="block4">
-        <i>Categories </i>
-        <h2>Our Products</h2>
+        
         <div className="blokks">
           <div>
             <div className="flowers">
@@ -132,37 +167,59 @@ function Home() {
         </div>
       </div>
       <div className="block5">
+        <div className="blok-senter">
         <div className="block5-center">
-          <i>Testimonial</i>
-          <h1>What Our Customer Saying?</h1>
-          <div class="carousel-container">
-  <div class="carousel">
-    <div class="item active">
-      <img src="https://bit.ly/34xczKy" alt="Image 1" />
-      <p class="caption">Caption for Image 1</p>
-    </div>
-    <div class="item">
-      <img src="https://bit.ly/3lkp5DW" alt="Image 2" />
-      <p class="caption">Caption for Image 2</p>
-    </div>
-    <div class="item">
-      <img src="https://bit.ly/3iMHuI1" alt="Image 3" />
-      <p class="caption">Caption for Image 3</p>
-    </div>
-  </div>
-  <button class="btn prev">Prev</button>
-  <button class="btn next">Next</button>
-  <div class="dots"></div>
-  </div>
+    <i>Testimonial</i>
+    <h1>What Our Customer Saying?</h1>
+    <div className="carousel-container">
+      <div className="carousel">
+        <div className={`item ${activeIndex === 0 ? 'active' : ''}`}>
+            <img src={carusel} />
+            <p>⭐⭐⭐⭐⭐</p>
+          <p className="caption">Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy <br />
+           text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+           <h3>Sara Taylor</h3>
+           <p>Consumer</p>
         </div>
-        <div className="block5-left">
-          <img src={block1} className='block11' />
+        <div className={`item ${activeIndex === 1 ? 'active' : ''}`}>
+        <img src={carusel2} />
+            <p>⭐⭐⭐⭐⭐</p>
+          <p className="caption">I have been using the Organick Grocer for over a year now and I find the staff friendly and       <br />
+          helpful with a good knowledge of the products they sell.</p>
+           <h3>Chris Jordan</h3>
+           <p>Store Owner</p>
         </div>
       </div>
-      <div className="block6">
+      <button className="bttn prev" onClick={prevSlide}>
+      <FaArrowLeft className='arow'/>
+      </button>
+      <button className="bttn next" onClick={nextSlide}>
+      <FaArrowRight className='arow'/>
+      </button>
+      <div className="dots">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`dot ${activeIndex === index ? 'active' : ''}`}
+            onClick={() => setActiveIndex(index)}
+          />
+        ))}
+      </div>
+    </div>
+    <div className="storus">
+      <Stories/>
+    </div>
+  </div>
+        </div>
+  <div className="block5-left">
+    <img src={block1} className='block11' />
+  </div>
+      </div>
+      <div className="blocck6">
+<div className="block6">
         <div className="Offers">
           <div className='offers1'>
-            <i>Offer</i>
+            <i>Offer Products</i>
             <h1>We Offer Organic For You</h1>
           </div>
           <div className='wiew'>
@@ -179,20 +236,25 @@ function Home() {
           ))}
         </div>
       </div>
+     </div>
       <div className="block7">
+        <div className="blokk-carrd7">
         <div className="block7-card">
-          <div>.</div>
+          <div></div>
           <i>Eco Friendly</i>
-          <h1>Econis is a Friendly <br />
-          Organic Store</h1>
+          <h1 className='Frien'>Econis is a Friendly </h1>
+          <h2 className='Frienn'>Organic Store</h2>
           <h3>Start with Our Company First</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium <br /> doloremque laudantium. Sed ut perspiciatis.</p>
+        <p className='sed'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium </p>
+      <p className='set'>   doloremque laudantium. Sed ut perspiciatis.</p>
         <h3>Learn How to Grow Yourself</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium <br /> doloremque laudantium. Sed ut perspiciatis.</p>
+        <p className='sed'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium </p>
+       <p className='set'>  doloremque laudantium. Sed ut perspiciatis.</p>
          <h3>Farming Strategies of Today</h3>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium <br /> doloremque laudantium. Sed ut perspiciatis.</p>
+         <p className='sed'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium </p>
+      <p className='set'>  doloremque laudantium. Sed ut perspiciatis.</p>
         </div>
-        
+        </div>
         <div className="block7-left">
             <img src={block7} />
         </div>

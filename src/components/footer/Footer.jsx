@@ -1,5 +1,4 @@
 import React from 'react'
-import './footer.css'
 import image from '../../assets/Image.png'
 import logo1 from '../../assets/Logo (2).svg'
 import icon1 from '../../assets/insta.svg'
@@ -7,6 +6,7 @@ import icon2 from '../../assets/2 (1).svg'
 import icon3 from '../../assets/3 (1).svg'
 import icon4 from '../../assets/4.svg'
 import { Link } from 'react-router-dom'
+import './footer.css'
 
 function Footer() {
   return (

@@ -89,12 +89,7 @@
 }
 
 
- Footer Main Content  
-
  .footer-content {
-
-
-.footer-content {
 
     display: flex;
     justify-content: space-between;
@@ -215,5 +210,5 @@
 } 
 
 
-}
+
  

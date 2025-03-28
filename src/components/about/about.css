@@ -6,16 +6,16 @@
 }
 
 .container {
-    width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 
 .surot-banner {
     width: 100%;
     position: relative;
-    margin-top: 80px;
+    margin-top: -110px;
+    margin-left: -40px;
 }
 
 .surot1 {
@@ -28,8 +28,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     margin-left: -656px;
-      margin-top: -70px;
+     margin-left: -646px;
+     
 }
  
 .surot-images {
@@ -38,7 +38,7 @@
  
 .surot3 {
     position: absolute;
-    right: 530px;
+    right: 480px;
     top: 370px;
     z-index: -10;
   
@@ -48,12 +48,13 @@
     position: absolute;
     width: 120px;
     right: -200px;
-    top: 220px;
+    top: 200px;
 }
 
 .surot-text {
     max-width: 500px;
-    margin-top: 200px;
+    margin-top: 230px;
+    margin-left: 50px;
 }
 
 .surot-text h1 {
@@ -82,22 +83,23 @@
 }
 
 .surot-button {
-    width: 226px;
-    height: 80px;
+    width: 206px;
+    height: 70px;
     display: flex;
     align-items: center;
     background-color: #1A3E3E;
     color: #fff;
-    padding: 12px 20px;
+    padding: 1px 30px;
     border-radius: 12px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 20px;
-
+    margin-top: 40px;
+    gap: 10px;
+    
 }
 
 .surot-icon-btn {
-    margin-left: 8px;
+    margin-left: 9px;
     font-size: 20px;
 }
 
@@ -110,11 +112,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1350px;
+    margin-left: -20px;
 }
 
 .surot-why-text {
     max-width: 500px;
-    margin-left: -30px;
+    margin-left: 0px;
 }
 
 .surot-why-text h2 {
@@ -146,7 +150,7 @@
 .surot-team {
     margin-top: 150px;
     text-align: center;
-    gap: 70px;
+    gap: 60px;
 }
 
 .surot-team h2 {
@@ -163,7 +167,8 @@
 
 .surot-team-container {
     display: flex;
-    gap: 60px;
+    gap: 80px;
+   margin-left: -10px;
 }
 
 .surot-team-card {
@@ -186,7 +191,7 @@
 .surot-cards {
     margin-top: 70px;
     display: flex;
-    gap: 50px;
+    gap: 70px;
     padding-bottom: 80px;
 }
 
