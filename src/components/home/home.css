@@ -51,14 +51,13 @@
     position: absolute;
     right: 10px;
     bottom: 0;
-    background-color: #d9bc65;
     width: 190px;
 }
 .group8{
     justify-content: center;
     position: absolute;
-    right: 60px;
-    bottom: 9px;
+    right: 65px;
+    bottom: 0;
     width: 100px;
 }
 

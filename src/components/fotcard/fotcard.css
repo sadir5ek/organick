@@ -125,15 +125,15 @@ color: #274C5B;
 .ftext{
     display: flex;
     margin-top: 130px;
+    gap: -0px;
 }
-.ftext h2{
+.Text h1{
     font-size: 35px;
-    margin-left: 60px;
+    margin-left: 40px;
     color: #274C5B;
-    margin-top: 10px;
+    margin-top: 10px; 
 }
-.text1{
-    margin-left: 207px;
+.text1{ 
 font-weight: 800;
 font-size: 25px;
 line-height: 66px;

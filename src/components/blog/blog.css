@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 .blog{
-    width: 1400px;
+    width: 100%;
     margin: auto;
     position: relative;
+    margin-top: 100px;
+    
+}
+.blog1{
+display: flex;
+justify-content: center;
 }
 .blog1 img{
-    width: 1400px;
+    width: 100%;
+   
 }
 .b1{
     position: absolute;
@@ -40,7 +47,7 @@
 }
 .b5{
     position: absolute;
-    margin-left: 565px;
+    margin-left: 0px;
     font-size: 44px;
     margin-top: 130px;
 }

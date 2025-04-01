@@ -7,18 +7,24 @@
 
 
 .shopcard{
-    width: 1400px;
+    width: 100%;
     margin: auto;
     position: relative;
     margin-top: 100px;
+   
+}
+.shopcart{
+  display: flex;
+  justify-content: center;
 }
 .fotoshop {
-    width: 1400px;
+    width: 100%;
   }
   .shopcard1{
     display: flex;
     align-items: center;
     margin-top: 30px;
+    justify-content: center;
   }
   .frutss{
     width: 641px;
@@ -215,10 +221,13 @@ color: #274C5B;
   .shopcard3 {
     margin-top: 40px;
     margin-left: -80px;
+    display: flex;
+    justify-content: center;
    
   }
   
-  .shopcard3 .hh {
+  .hh {
+    margin-top: 20px;
     color: #274C5B;
     display: flex;
     justify-content: center;
@@ -237,7 +246,7 @@ color: #274C5B;
     color: #274C5B;
     font-weight: 900;
     font-size: 45px;
-    margin-left: 610px;
+    margin-left: 110px;
     margin-top: 130px;
  }
   
@@ -247,6 +256,7 @@ color: #274C5B;
     height: 90px;
     margin-top: 190px;
     right: 340px;
+   
 }
 .fotto22{
     position: absolute;
@@ -254,6 +264,7 @@ color: #274C5B;
     height:90px;
     margin-top: 200px;
     left: 710px;
+    
 }
 .fotto33{
     position: absolute;
@@ -274,8 +285,8 @@ color: #274C5B;
   position: absolute;
   width: 90px;
   height: 90px;
-  margin-top: 190px;
-  right: 330px;
+  margin-top: 200px;
+  right: 350px;
 }
 .fotto212{
   position: absolute;
@@ -289,12 +300,12 @@ color: #274C5B;
   width: 70px;
   height:70px;
   margin-top: 30px;
-  left: 520px;
+  left: 570px;
 }
 .fotto414{
   position: absolute;
   width: 130px;
   height:130px;
-  margin-top: 20px;
-  right: 260px;
+  margin-top: 10px;
+  right: 350px;
 }

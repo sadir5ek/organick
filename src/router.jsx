@@ -1,17 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer"; 
 import Blog from "./components/blog/Blog";
 import Home from "./components/home/Home";
  import About from "./components/about/About";
-import Shop from "./components/shop/Shop";
-import Contact from "./components/contact/Contact";
+import Shop from "./components/shop/Shop"; 
 import Servicesingle from "./components/service-single/Servicesingle";
 import Portfolio from "./components/portfolio/Portfolio";
 import Ourteam from "./components/our-team/Ourteam";
-import News from "./components/news/News";
-import Services from "./components/servises/Services";
+import Services from "./components/servises/Services"; 
 import Blogcard from "./components/cards/Blogcard";
 import Blockcard from "./components/cards/Blockcard";
 import Blokcard from "./components/cards/Blokcard";
@@ -31,6 +28,8 @@ import Fotcard4 from "./components/fotcard/Fotcard4";
 import Fotcard5 from "./components/fotcard/Fotcard5";
 import Shopcard from "./components/shopcard/Shopcard";
 import Card from "./components/card/Card";
+import Header from "./components/header/Header";
+import Contact from "./components/contact/Contact";
 
 export const myRouter = createBrowserRouter([
     {
@@ -68,7 +67,7 @@ export const myRouter = createBrowserRouter([
               } ,
               {
                 path: '/contact',  
-                element: <Contact/> 
+                element: <Contact /> 
               },
               {
                 path: '/services',  
@@ -86,11 +85,7 @@ export const myRouter = createBrowserRouter([
                 path: '/our-team',  
                 element: <Ourteam/> 
               },
-              {
-                path: '/news',  
-                element: <News/> 
-              }, 
-              {
+              { 
                 path: '/shopcard/:id',
                 element: <Shopcard/>
               },

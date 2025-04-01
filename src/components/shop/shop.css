@@ -4,17 +4,19 @@
     box-sizing: border-box;
 }
 .shop{
-    width: 1400px;
+    width: 100%;
+    justify-content: center;
     margin: auto;
     position: relative;
     margin-top: 100px;
+    overflow-x: hidden; 
 }
 .shop1 h1{
+   
     position: absolute;
     color: #274C5B;
     font-weight: 900;
     font-size: 45px;
-    margin-left: 650px;
     margin-top: 130px;
 }
 .fotto1{
@@ -29,7 +31,8 @@
     width: 90px;
     height:90px;
     margin-top: 200px;
-    right: -10px;
+    left: 280px;
+
 }
 .fotto3{
     position: absolute;
@@ -43,19 +46,22 @@
     width: 130px;
     height:130px;
     margin-top: 20px;
-    right: 140px;
+    right: 220px;
+}
+.shop1{
+    display: flex;
+    justify-content: center;
 }
 
-
 .shop1 img {
-  width: 10%;
+  width: 100%;
     
 }
 
 .shop2{
     display: flex;
-
-    
+justify-content: center;
+margin-left: -120px;   
 }
 .flowerss {
     display: grid;

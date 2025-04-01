@@ -6,7 +6,7 @@ import { TiShoppingCart } from "react-icons/ti";
 
 export const NewData = [
   { 
-    id: 1,
+    id: 13,
     name: 'Vegetable',
     card: <TiShoppingCart />,
     userName: 'Mung Bean ',
@@ -15,7 +15,7 @@ export const NewData = [
     img: MBean
   },
   { 
-    id: 2, 
+    id: 14, 
     name: 'Vegetable',
     card: <TiShoppingCart />,
     userName: 'Brown Hazelnut ',
@@ -24,7 +24,7 @@ export const NewData = [
     img: Brown 
   },
   {
-   id: 3,
+   id: 15,
    name: 'Vegetable',
    card: <TiShoppingCart />,
    userName: 'Onion ',
@@ -33,7 +33,7 @@ export const NewData = [
    img: Onion 
   },
   {
-     id: 4,
+     id: 16,
      name: 'Vegetable',
      card: <TiShoppingCart />,
      userName: 'Cabbage ',

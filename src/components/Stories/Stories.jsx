@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import qr from '../../assets/homeee/Banana.png';
+import qr from '../../assets/homeee/video2.mp4';
 import video1 from '../../assets/homeee/video1.mp4';
 import video2 from '../../assets/homeee/fruct1.jpg';
 import video3 from '../../assets/homeee/brown.png';
@@ -14,7 +14,7 @@ export default function Stories() {
   const [storyDuration, setStoryDuration] = useState(5000); // Default 5 секунд сүрөттөр үчүн
 
   const stories = [
-    { id: 1, type: "image", src: qr, title: "Сторис 1" },
+    { id: 1, type: "video", src: qr, title: "Сторис 1" },
     { id: 2, type: "video", src: video1, title: "Сторис 2" },
     { id: 3, type: "image", src: video2, title: "Сторис 3" },
     { id: 4, type: "image", src: video3, title: "Сторис 4" },

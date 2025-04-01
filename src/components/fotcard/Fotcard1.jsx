@@ -48,7 +48,7 @@ function Fotcard1() {
     </div>
     <div className="ftext">
         <div className="Text">
-            <h2>Text Styles</h2>
+            <h1 >Text Styles</h1>
         </div>
         <div className="text1">
             <h1>Display H1 Text</h1>

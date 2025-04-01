@@ -15,6 +15,7 @@ const NewProduct = ({ products }) => {
     dispatch(addCart({
       id: products.id,
       name: products.name,
+      userName: products.userName,
       price: products.price,
       img: products.img
     }));

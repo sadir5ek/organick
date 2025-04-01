@@ -15,6 +15,7 @@ import almondos from '../../assets/homeee/almonds.png'
 
 export const Data = [
      { 
+      id: 1,
        name: 'Vegetable' ,
        card: <TiShoppingCart />,
        img: broccoli ,
@@ -24,6 +25,7 @@ export const Data = [
        foto: star 
      },
      {
+      id: 2,
         name: 'Fresh' ,
         card: <TiShoppingCart />,
         img: banana ,
@@ -33,6 +35,7 @@ export const Data = [
         foto: star 
      },
      {
+      id: 3,
         name: 'Millets' ,
         card: <TiShoppingCart />,
         img: milets ,
@@ -42,6 +45,7 @@ export const Data = [
         foto: star 
      },
      {
+      id: 4,
         name: 'Vegetable' ,
         card: <TiShoppingCart />,
         img: pototo ,
@@ -51,6 +55,7 @@ export const Data = [
         foto: star 
      },
      {
+      id: 5,
         name: 'Health' ,
         card: <TiShoppingCart />,
         img: bean ,
@@ -60,6 +65,7 @@ export const Data = [
         foto: star ,
      },
      {
+      id: 6,
         name: 'Nuts' ,
         card: <TiShoppingCart />,
         img: brown ,
@@ -69,6 +75,7 @@ export const Data = [
         foto: star 
      },
      {
+      id: 7,
         name: 'fresh' ,
         card: <TiShoppingCart />,
         img: eggs ,
@@ -78,6 +85,7 @@ export const Data = [
         foto: star 
      },
      {
+      id: 8,
         name: 'fresh' ,
         card: <TiShoppingCart />,
         img: bread ,
@@ -87,6 +95,7 @@ export const Data = [
         foto: star 
      },
      {
+      id: 9,
       name: 'Health' ,
       card: <TiShoppingCart />,
       img: mbean ,
@@ -96,6 +105,7 @@ export const Data = [
       foto: star 
      },
      {
+      id: 10,
       name: 'Nuts' ,
       card: <TiShoppingCart />,
       img: hazelnut ,
@@ -105,6 +115,7 @@ export const Data = [
       foto: star 
      },
      {
+      id: 11,
       name: 'fresh' ,
       card: <TiShoppingCart />,
       img: corn ,
@@ -114,6 +125,7 @@ export const Data = [
       foto: star 
      },
      {
+      id: 12,
       name: 'fresh' ,
       card: <TiShoppingCart />,
       img: almondos ,
