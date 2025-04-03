@@ -28,6 +28,7 @@ const Video = () => {
               title="YouTube Video"
               allow="autoplay; encrypted-media"
               allowFullScreen
+            
             ></iframe>
 
            
