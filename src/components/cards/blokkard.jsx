@@ -1,6 +1,6 @@
 import React from 'react'
 import './blogcard.css'
-import blok1 from '../../assets/blog/card6.png'
+import blok1 from '../../assets/blog/product.jpg'
 import Blogg from '../../assets/blog/blog.png'
 import b1 from '../../assets/blog/b1.svg'
 import b2 from '../../assets/blog/b2.svg'
@@ -9,10 +9,10 @@ import b4 from '../../assets/blog/b4.svg'
 
 function Blokkcard() {
   return (
-    <div className='blokcard'>
-        <div className="karrdd">
-            <div className="karrdd1">
-                <div className="post">
+    <div className='Blokkard'>
+        <div className="Kaarrdd">
+            <div className="Kaarrdd1">
+                <div className="Poss">
                 <h4>Posted On:</h4>
                 <h5>Novenber 25, 2022</h5>
                 </div>
@@ -22,7 +22,7 @@ function Blokkcard() {
               matrix economically override the digital. Objectively on low-hanging fruit to identify a ballpark value added <br />
              activity to beta matrix economically.</p>
             </div>
-            <img src={blok1} className='imgblock1'/>
+            <img src={blok1} className='zzzzz'/>
 
             <p className='ppp'>Uniquely matrix economically sound value through cooperative technology. Competently parallel task fully <br />
              researched data and enterprise process improvements. Collaboratively expedite quality manufactured products <br />

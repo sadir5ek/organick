@@ -10,9 +10,9 @@ import { IoPersonSharp } from "react-icons/io5";
 import blok1 from '../../assets/Photo91.png'
 import blok2 from '../../assets/Photo (1).png'
 import blok3 from '../../assets/blog/card3.png'
-import blok4 from '../../assets/blog/card4.png'
+import blok4 from '../../assets/blog/grean-tea.jpeg'
 import blok5 from '../../assets/blog/card5.png'
-import blok6 from '../../assets/blog/card6.png'
+import blok6 from '../../assets/blog/product.jpg'
 import { Link } from 'react-router-dom'
 function Blog() {
   return (
@@ -34,14 +34,21 @@ function Blog() {
               <div className="noww">
               <h3>14</h3>
               <p>Feb</p>
+              <div className="novss">
+              <h3>16</h3>
+              <p>Nov</p>
               </div>
+              </div>
+
+
+
               <div className="kardd">
                 <div className="richh">
                 <IoPersonSharp className='ikon'/>
                   <p>Kristina Castlle</p>
                 </div>
-                <h3>Everything You Need to Know About Organik</h3>
-                <p>Organic farming is the only way that you still can <br 
+                <h3>Everything You Need to Know  Organik</h3>
+                <p>Organic farming is the only way that you still  <br 
                 /> experience the real world.</p>
                   <Link to="/blogcard/:id">
                   <button className='readd'>
@@ -53,16 +60,18 @@ function Blog() {
               <div className="blokk9-card1">
               <img src={blok1} />
               </div>
+
+      
               <div className="kartd">
                 <div className="richh">
                 <IoPersonSharp className='ikon'/>
                   <p>Kristina Castle</p>
                 </div>
                 <h3>Benefits of Orgnic Green Tea</h3>
-                <p>They believe our organick and we are successful in <br /> fulfilling 
+                <p>They believe our organick and we are success <br /> ful in  fulfilling 
                  their beliefs.</p>
                  <Link to="/bloccard/:id">
-                 <button className='readd'>
+                 <button className='redd'>
                   <h3>View More</h3>
                   <FaArrowCircleRight />
                 </button>
@@ -71,7 +80,31 @@ function Blog() {
               <div className="blokk9-card2">
               <img src={blok4} />
                 </div> 
+
+
+                <div className="kartt">
+                <div className="richh">
+                <IoPersonSharp className='ikon'/>
+                  <p>Alex Louis</p>
+                </div>
+                <h3>Orgnic Fruits: Surprising Benefits  Facts</h3>
+                <p>The world of nature has grown on the principles <br /> of health, 
+                 ecology, and care.</p>
+                  <Link to="/blockcard/:id">
+                  <button className='readt'>
+                   <h3>View More</h3>
+                   <FaArrowCircleRight />
+                 </button>
+                  </Link>
+              </div>
+              <div className="blokk9-card2">
+              <img src={blok2} />
+                </div> 
             </div>
+
+
+
+
             <div className="blokk9-cardss">
               <div className="nov">
               <h3>25</h3>
@@ -81,7 +114,11 @@ function Blog() {
               <h3>25</h3>
               <p>Nov</p>
               </div>
-              <div className="kardd">
+              <div className="nowws">
+              <h3>16</h3>
+              <p>Nov</p>
+              </div>
+              <div className="karrdd">
                 <div className="richh">
                 <IoPersonSharp className='ikon'/>
                   <p>Christina John</p>
@@ -117,17 +154,8 @@ function Blog() {
               <div className="blokk9-card2">
               <img src={blok6} />
                 </div> 
-            </div>
-            <div className="blokk9-cardsc">
-              <div className="nov">
-              <h3>16</h3>
-              <p>Nov</p>
-              </div>
-              <div className="noww">
-              <h3>16</h3>
-              <p>Nov</p>
-              </div>
-              <div className="kardd">
+
+                <div className="kardd">
                 <div className="richh">
                 <IoPersonSharp className='ikon'/>
                   <p>Alex Louis</p>
@@ -145,24 +173,6 @@ function Blog() {
               <div className="blokk9-card1">
               <img src={blok5} />
               </div>
-              <div className="kartd">
-                <div className="richh">
-                <IoPersonSharp className='ikon'/>
-                  <p>Alex Louis</p>
-                </div>
-                <h3>Orgnic Fruits: Surprising Benefits and Facts</h3>
-                <p>The world of nature has grown on the principles <br /> of health, 
-                 ecology, and care.</p>
-                  <Link to="/blockcard/:id">
-                  <button className='read'>
-                   <h3>View More</h3>
-                   <FaArrowCircleRight />
-                 </button>
-                  </Link>
-              </div>
-              <div className="blokk9-card2">
-              <img src={blok2} />
-                </div> 
             </div>
             <div className='fff'>ff</div>
           </div>

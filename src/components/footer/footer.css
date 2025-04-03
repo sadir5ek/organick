@@ -150,8 +150,8 @@
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height:40px;
     margin-left: 15px;
 }
 
@@ -211,6 +211,10 @@
     margin-left: 130px;
 } 
 
-
-
- 
+.ulli{
+    display: flex;
+    margin-left: 70px;
+}
+.page{
+    margin-left: 60px;
+}

@@ -8,6 +8,8 @@
     margin: auto;
     position: relative;
     margin-top: 100px;
+ overflow-x: hidden;
+ overflow-y: hidden;
     
 }
 .blog1{
@@ -15,7 +17,7 @@ display: flex;
 justify-content: center;
 }
 .blog1 img{
-    width: 100%;
+    width: 1400px;
    
 }
 .b1{
@@ -118,21 +120,22 @@ color: #274C5B;
 margin-top: 10px;
 }
 .blokk9-cards{
-    width: 1100px;
+    width: 1400px;
     display: flex;
     margin: auto;
-    gap: 70px;
+    gap: 24px;
     margin-top: 50px;
+    
 }
 .blokk9-cards a{
 text-decoration: none;
 }
 .blokk9-cardss{
-    width: 1100px;
+    width: 1400px;
     display: flex;
     margin: auto;
-    gap: 70px;
-    margin-top: 110px;
+    gap: 24px;
+    margin-top: 150px;
 }
 .blokk9-cardss a{
     text-decoration: none;
@@ -147,37 +150,69 @@ text-decoration: none;
 .blokk9-cardsc a{
     text-decoration: none;
     }
+
 .blokk9-card1 img{
-    width: 500px;
-    height: 350px;
-    border-radius: 35px;
+    width: 450px;
+    height: 300px;
+    border-radius: 25px;
 }
 .blokk9-card2 img{
-    width: 500px;
-    height: 350px;
-    border-radius: 35px;
+    width: 450px;
+    height: 300px;
+    border-radius: 25px;
 }
 .kardd{
     position: absolute;
-    width: 440px;
+    width: 400px;
     height: 240px;
     background-color: white;
     border-radius: 30px;
-    margin-left: 30px;
+    margin-left: 27px;
     margin-top: 170px;
     border: 1px solid rgb(221, 220, 220);
-    box-shadow: 0px 20px 35px 0px #A7A7A740;
+    box-shadow: 0px 20px 35px 0px #c7caca40;
+}
+.karrdd{
+    position: absolute;
+    width: 400px;
+    height: 240px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left:970px;
+    margin-top: 170px;
+    border: 1px solid rgb(221, 220, 220);
+    box-shadow: 0px 20px 35px 0px #c7caca40;
+}
+.karrdd h3{
+    margin-left: 37px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  color: #274C5B;    
+}
+.karrdd p{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+letter-spacing: 0%;
+color: #525C60;
 }
 .kartd{
     position: absolute;
-    width: 440px;
+    width: 400px;
     height: 240px;
     background-color: white;
     border-radius: 30px;
-    margin-left: 598px;
+    margin-left: 496px;
     margin-top: 170px;
     border: 1px solid rgb(221, 220, 220);
-    box-shadow: 0px 20px 35px 0px #A7A7A740;
+    box-shadow: 0px 20px 35px 0px #c7caca40;
 
 }
 .kartd h3{
@@ -191,6 +226,39 @@ text-decoration: none;
   color: #274C5B;    
 }
 .kartd p{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+letter-spacing: 0%;
+color: #525C60;
+}
+
+.kartt{
+    position: absolute;
+    width: 400px;
+    height: 240px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 975px;
+    margin-top: 170px;
+    border: 1px solid rgb(221, 220, 220);
+    box-shadow: 0px 20px 35px 0px #A7A7A740;
+
+}
+.kartt h3{
+    margin-left: 37px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  color: #274C5B;    
+}
+.kartt p{
     margin-left: 40px;
     margin-top: 10px;
     font-family: Open Sans;
@@ -255,7 +323,7 @@ margin-left: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
     transition: all 0.3s ease-in-out;
     text-transform: uppercase; 
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 40px;
 }
 .readd:hover {
@@ -264,6 +332,64 @@ margin-left: 16px;
 }
 
 .readd h3 {
+    margin: 0;
+    font-size: 16px;
+  
+}
+.readt {
+    background:white ;
+    border: none;
+    padding: 20px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase; 
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.readt:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgb( 172, 172, 172); 
+}
+
+.readt h3 {
+    margin: 0;
+    font-size: 16px;
+  
+}
+.redd {
+    background:white ;
+    border: none;
+    padding: 20px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase; 
+    margin-top: 17px;
+    margin-left: 40px;
+}
+.redd:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgb( 172, 172, 172); 
+}
+
+.redd h3 {
     margin: 0;
     font-size: 16px;
   
@@ -285,6 +411,24 @@ margin-top: 22px;
 .nov h3{
     margin-top: 8px;
 }
+.novss{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    font-family: Roboto;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+text-align: center;
+margin-left: 472px;
+margin-top: -47px;
+
+}
+.novss h3{
+    margin-top: 8px;
+}
 .noww{
     position: absolute;
     width: 55px;
@@ -296,13 +440,30 @@ font-weight: 600;
 font-size: 20px;
 line-height: 100%;
 text-align: center;
-margin-left: 596px;
+margin-left: 495px;
 margin-top: 22px;
 }
 .noww h3{
     margin-top: 8px;
 }
+.nowws{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    font-family: Roboto;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+text-align: center;
+margin-left: 970px;
+margin-top: 22px;
+}
+.nowws h3{
+    margin-top: 8px;
+}
 .fff{
-    margin-top: 60px;
+    margin-top: 120px;
     color: white;
 }

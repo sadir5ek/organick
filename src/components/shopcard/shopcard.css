@@ -29,7 +29,7 @@
   .frutss{
     width: 641px;
     height:641px;
-    background-color: #f9f4f3;
+    background-color: #f6f6f7;
     margin-left: 80px;
     border-radius: 30px;
   }
@@ -38,6 +38,8 @@
     height:630px;
    margin-left:8px ;
     margin-top: 5px;
+    mix-blend-mode: multiply;
+
   }
   .Millets{
    font-size: 25px;

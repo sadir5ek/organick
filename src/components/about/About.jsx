@@ -24,9 +24,9 @@ function About() {
 
     <div className='container'>
 
-      <div className="surot-banner">
+      
         <img src={surot1} className='surot1' alt="Banner" />
-      </div>
+      
       <div className='surot-about'>
         <div className="surot-images">
           <img src={surot2} className='surot2' alt="About Image 1" />
