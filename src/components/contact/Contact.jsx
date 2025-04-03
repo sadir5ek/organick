@@ -1,35 +1,3 @@
-// import React from 'react'
-// import './contact.css'
-// import contact from '../../assets/contact/Image (5).png'
-// import rt1 from '../../assets/portfolio/Pattern (3).svg';
-// import rt2 from '../../assets/portfolio/Pattern (5).svg';
-// import rt3 from '../../assets/portfolio/Pattern (6).svg';
-
-// function Contact() {
-//   return (
-//     <div className='contact'>
-//       <div className="contact1">
-//               <img src={rt1} className='rt11' />
-//                 <img src={rt2} className='rt22' />
-//                 <img src={rt3} className='rt33' />
-//                 <h1 className='rt44'>Contact Us</h1>
-//         <img src={contact} className='contactt'/>
-//       </div>
-//       <div className="contact2">
-//         <img src={banan} />
-//         <div className="contact2-text">
-//       <h1>We'd love to talk about how we <br />
-//        can work together.</h1>
-//        <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to <br />
-//        been the industry's standard dummy text ever since the 1500s, when an unknown <br />
-//         printer took a galley.</p>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Contact
 import React from 'react';
 import './contact.css';
 import contactBanner from '../../assets/contact/Image (5).png';
@@ -39,10 +7,6 @@ import banan from '../../assets/contact/frutsContact.png';
  import rt1 from '../../assets/portfolio/Pattern (3).svg';
  import rt2 from '../../assets/portfolio/Pattern (5).svg';
  import rt3 from '../../assets/portfolio/Pattern (6).svg';
-import icon1 from '../../assets/insta.svg'
-import icon2 from '../../assets/2 (1).svg'
-import icon3 from '../../assets/3 (1).svg'
-import icon4 from '../../assets/4.svg'
 
 function Contact() {
   return (
@@ -72,30 +36,6 @@ function Contact() {
             <p><FaPhone className='fa'/> +01 123 456 789</p>
             </div>
           </div>
-             {/* <div className="contact-details">
-          <a href="sms:+01123456789?body=Hello,%20I%20have%20a%20question!" className="contact-card">
-            <FaEnvelope className="contact-icon" />
-            <div>
-              <h3>Message</h3>
-              <p>abdiraimov</p>
-            </div>
-          </a>
-
-          <a href="tel:+01123456789" className="contact-card">
-            <FaPhone className="contact-icon" />
-            <div>
-              <h3>Contact Us</h3>
-              <p>+996 554 478 444</p>
-            </div>
-          </a>
-        </div> */}
-           <div className="social-icon">
-           <a href=" https://www.instagram.com/organickg/"><img src={icon1} className="icons" /></a>
-          <a href="https://www.facebook.com/?locale=ru_RU "> <img src={icon2} className="icons" /></a>
-          <a href="FaPinterestP"><img src={icon3} className="icons" /> </a>
-          <a href="FaPinterestP"><img src={icon4} className="icons" /> </a>
-        
-         </div>
         </div>
       </div>
       
@@ -115,6 +55,7 @@ function Contact() {
         </div>
         <img src={leafImage} alt="Leaf Background" className="location-bg" />
       </div>
+      <h1>werghjhgfdsdfghj</h1>
     </div>
   );
 }

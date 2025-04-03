@@ -29,7 +29,7 @@ export const Data = [
         name: 'Fresh' ,
         card: <TiShoppingCart />,
         img: banana ,
-        userName: 'Fresh Banana Fruites ',
+        userName: 'Fresh Banana  ',
         price: '$14.00',
         oldPrice: '$20.00',
         foto: star 

@@ -21,9 +21,17 @@
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px #e1070733;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-  }
+    
+ 
+    background-image: url('https://avatars.mds.yandex.net/i?id=ee36cc7cff0eb92b4212b9912f3318fb_l-5253972-images-thumbs&n=13');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   
+   
+}
+
+
   .story-item:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);

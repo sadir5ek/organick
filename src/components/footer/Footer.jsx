@@ -47,13 +47,17 @@ function Footer() {
 
           <div className="footer-section">
             <h3>Utility Pages</h3>
+            <div className='ulli'>
             <ul>
               <li><Link to="fotcard1">Style Guide</Link></li>
               <li><Link to="fotcard2">Protected</Link></li>
-              <li><Link to="/fotcard3">Page Not Found</Link></li>
-              <li><Link to="fotcard4">Changelog</Link></li>
-              <li><Link to="fotcard5">Licenses</Link></li>
+              <li className='page'><Link to="/fotcard3">Page Not Found</Link></li> 
             </ul>
+            <ul>   
+             <li><Link to="fotcard4">Changelog</Link></li>
+            <li><Link to="fotcard5">Licenses</Link></li>
+            </ul>
+            </div>
           </div>
       </div>
      <div className="footer-bottom">

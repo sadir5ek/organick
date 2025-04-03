@@ -99,6 +99,10 @@
 // export default Shopcard
 
 
+
+
+
+
 // import React, { useState } from 'react';
 // import './shopcard.css';
 // import { FaArrowCircleRight } from "react-icons/fa";
@@ -234,7 +238,10 @@
 // }
 
 // export default Shopcard;
-import React, { useState } from 'react' // ✅ useState импорттолушу керек
+
+
+
+import React, { useState } from 'react' 
 import './shopcard.css'
 import { FaArrowCircleRight } from "react-icons/fa"
 import frutss from '../../assets/homeee/millets.png'
@@ -247,11 +254,9 @@ import fotto3 from '../../assets/shop/Pattern (2).svg'
 import fotto4 from '../../assets/shop/Pattern (3).svg'
 
 function Shopcard() {
-  // ✅ quantity'ди useState менен жарыялоо
   const [quantity, setQuantity] = useState(1);
-  const [activeTab, setActiveTab] = useState("description"); // ✅ activeTab'ди жарыялоо
+  const [activeTab, setActiveTab] = useState("description"); 
 
-  // 🔹 Quantity өзгөртүү функциялары
   const increaseQuantity = () => {
     setQuantity((prev) => prev + 1);
   };
@@ -260,7 +265,6 @@ function Shopcard() {
     setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
   };
 
-  // 🔹 Тилкени алмаштыруу функциясы
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
@@ -351,3 +355,13 @@ function Shopcard() {
 }
 
 export default Shopcard;
+
+
+
+
+
+
+
+
+
+

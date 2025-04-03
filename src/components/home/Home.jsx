@@ -262,7 +262,7 @@ function Home() {
             
         </div>
       </div>
-      <div className="block8">
+      {/* <div className="block8">
         <div className="block8-card1">
           <Link to="shop">
           <button>Organic Juice</button>
@@ -282,7 +282,7 @@ function Home() {
         <img src={cookis} />
         <h1>.</h1>
         </div>
-      </div>
+      </div> */}
       <div className="block9">
         <div className="New">
           <div className="News">

@@ -107,3 +107,52 @@
   color: #777;
   font-weight: 500;
 }
+.total {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5733;
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Баалар жана жылдыздар бир катарда */
+.price-star-container {
+  display: flex;        /* Горизонталдык жайгаштыруу */
+  align-items: center;  /* Вертикалдык теңдөө */
+  gap: 15px;            /* Элементтердин ортосундагы аралык */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Эски баа (Сызыктуу, кызыл түстө) */
+.old-price {
+  text-decoration: line-through;
+  color: red;
+  font-size: 16px;
+}
+
+/* Учурдагы баа (Кара түстө) */
+.current-price {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Жылдыздар */
+.star-rating {
+  display: flex;          /* Горизонталдык тизүү */
+  align-items: center;
+  gap: 5px;               /* Ар бир жылдыздын аралыгы */
+}
+
+/* Күйгөн (Алтын түстөгү) жылдыз */
+.gold-star {
+  font-size: 20px;
+  color: gold;
+}
+
+/* Өчүк (Көк түстөгү) жылдыз */
+.gray-star {
+  font-size: 20px;
+  color: gray;
+}

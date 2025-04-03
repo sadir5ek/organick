@@ -9,10 +9,10 @@ import b4 from '../../assets/blog/b4.svg'
 
 function Blogcard() {
   return (
-    <div className='blokcard'>
-        <div className="karrdd">
-            <div className="karrdd1">
-                <div className="post">
+    <div className='Blokkard'>
+        <div className="Kaarrdd">
+            <div className="Kaarrdd1">
+                <div className="Poss">
                 <h4>Posted On:</h4>
                 <h5>February 14, 2022</h5>
                 </div>
@@ -22,7 +22,7 @@ function Blogcard() {
               matrix economically override the digital. Objectively on low-hanging fruit to identify a ballpark value added <br />
              activity to beta matrix economically.</p>
             </div>
-            <img src={blok1} className='imgblock1' />
+            <img src={blok1} className='zzzzz' />
 
             <p className='ppp'>Uniquely matrix economically sound value through cooperative technology. Competently parallel task fully <br />
              researched data and enterprise process improvements. Collaboratively expedite quality manufactured products <br />

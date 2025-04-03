@@ -9,7 +9,8 @@
     margin: auto;
     position: relative;
     margin-top: 100px;
-    overflow-x: hidden; 
+    overflow-y: hidden; 
+    overflow-x: hidden;
 }
 .shop1 h1{
    
