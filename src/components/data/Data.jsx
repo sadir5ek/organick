@@ -1,17 +1,17 @@
 import { TiShoppingCart } from "react-icons/ti";
-import broccoli from '../../assets/homeee/Photo (1).svg'
+import broccoli from '../../assets/homeee/broccoli-isol.jpg'
 import star from '../../assets/homeee/Star.svg'
-import banana from '../../assets/homeee/Banana.png'
-import milets from '../../assets/homeee/millets.png'
-import pototo from '../../assets/homeee/pototo.png'
-import bean from '../../assets/homeee/bean.png'
-import brown from '../../assets/homeee/brown.png'
-import eggs from '../../assets/homeee/egs.png'
-import bread from '../../assets/homeee/bread.png'
-import mbean from '../../assets/homeee/mbeam.png'
-import hazelnut from '../../assets/homeee/hazelnut.png'
-import corn from '../../assets/homeee/corn.png'
-import almondos from '../../assets/homeee/almonds.png'
+import banana from '../../assets/homeee/istockphoto-1732.jpg'
+import milets from '../../assets/homeee/nuts-clipar.png'
+import pototo from '../../assets/homeee/file tom.jpg'
+import bean from '../../assets/homeee/mung-beans-.webp'
+import brown from '../../assets/homeee/hazelnut-transparent-background-png.webp'
+import eggs from '../../assets/homeee/16-egg-png-image.png'
+import bread from '../../assets/homeee/rusk-png-612x408_c4ffaadb_transparent.png'
+import mbean from '../../assets/homeee/three-gherkins-isolated-over-white-th.webp'
+import hazelnut from '../../assets/homeee/nuts-mix-isolated-white-33565287.webp'
+import corn from '../../assets/homeee/Eat&Drink_Ingredient_Corn1_GETTYIMAGES_rp0723.jpg'
+import almondos from '../../assets/homeee/9340755000339.webp'
 
 export const Data = [
      { 
@@ -99,7 +99,7 @@ export const Data = [
       name: 'Health' ,
       card: <TiShoppingCart />,
       img: mbean ,
-      userName: 'Mung Bean ',
+      userName: 'Cucembar ',
       price: '$11.00',
       oldPrice: '$20.00',
       foto: star 

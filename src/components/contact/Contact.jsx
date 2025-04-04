@@ -1,61 +1,83 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './contact.css';
 import contactBanner from '../../assets/contact/Image (5).png';
-import leafImage from '../../assets/contact/Photo (10).svg';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import banan from '../../assets/contact/frutsContact.png';
- import rt1 from '../../assets/portfolio/Pattern (3).svg';
- import rt2 from '../../assets/portfolio/Pattern (5).svg';
- import rt3 from '../../assets/portfolio/Pattern (6).svg';
+import logo from '../../assets/Logo (2).svg';
 
 function Contact() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isThankYouOpen, setIsThankYouOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+  const submitForm = (e) => {
+    e.preventDefault();
+    closeModal();
+    setIsThankYouOpen(true);
+  };
+  const closeThankYou = () => setIsThankYouOpen(false);
+
   return (
     <div className='contact'>
       <div className="contact-header">
         <img src={contactBanner} alt="Contact Us" className="contact-banner" />
         <h1>Contact Us</h1>
-        <img src={rt1} className='rt11' />
-        <img src={rt2} className='rt22' />
-        <img src={rt3} className='rt33' />
       </div>
-            <div className="contact-info">
+      <div className="contact-info">
         <img src={banan} alt="Banana and Oranges" className="contact-image" />
         <div className="contact-text">
           <h1>We'd love to talk about how we can work together.</h1>
-          <p>
-            Simply dummy text of the printing and typesetting industry. Lorem had ceased to
-            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
-          </p>
+          <p>Simply dummy text of the printing and typesetting industry.</p>
           <div className="contact-details">
-            <div>
-              <h3>Massege  </h3>
-            <p><FaEnvelope className='fa'/> example@example.com</p>
+            <div className='Massege' onClick={openModal}>
+              <h3>Message</h3>
+              <p><FaEnvelope className='fa' /> example@example.com</p>
             </div>
+            <a href="https://web.whatsapp.com/">
             <div>
               <h3>Contact Us</h3>
-            <p><FaPhone className='fa'/> +01 123 456 789</p>
+              <p><FaPhone className='fa' /> +01 123 456 789</p>
             </div>
+            </a>
+           
           </div>
         </div>
       </div>
-      
-      <div className="contact-location">
-      <div className="location-info">
-        <div className=""> </div>
-        <i>Location</i>
-          <h1>Our Farms</h1>
-          <p>
-            Established fact that a  will be distracted <br /> by the readable content of  when looking <br />
-         <p className='its'>   at its a loading layout.</p>  
-          </p>
-          <h3 className='new'>📍 New York, USA</h3>
-          <p className='york'>45, New York Street, New York</p>
-          <h3 className='neew'>📍 London, UK</h3>
-          <p className='yoork'>25, Landmark Street, London SE1 1RQ</p>
+
+      {isModalOpen && (
+       <div className="modal-overlay active">
+       <div className="modal">
+         <div className="modal-header">
+           <h2 className='zap'>Заполните форму</h2>
+           <button className="close-btn" onClick={closeModal}>X</button>
+         </div>
+         <form onSubmit={submitForm}>
+           <input type="text" placeholder="Имя" required />
+           <input type="text" placeholder="Аккаунт" required />
+           <textarea placeholder="Сообщение" required></textarea>
+           <button type="submit">Отправить</button>
+         </form>
+       </div>
+     </div>
+     
+      )}
+
+      {isThankYouOpen && (
+        <div className="modal-overlay active">
+          <div className="modal">
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+        <h1 className='Organick'>Organick</h1>
+     </div>
+            <h2 className='x'>Спасибо!</h2>
+            <i>Мы получили вашу заявку и свяжемся с <br /> вами 
+             в ближайшее время.</i>
+            <h3>Хорошего дня!!</h3>
+            <button className="close-btnn" onClick={closeThankYou}>Закрыть</button>
+          </div>
         </div>
-        <img src={leafImage} alt="Leaf Background" className="location-bg" />
-      </div>
-      <h1>werghjhgfdsdfghj</h1>
+      )}
     </div>
   );
 }

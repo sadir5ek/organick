@@ -1,38 +1,17 @@
- *{
+
+
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
   
-}
-.rt11{
-    width: 110px;
-    height: 110px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 430px;
-    background-color: #2c6e49;
-    
-}
-.rt22{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-   left: 420px;
-   margin-top: 200px;
-}.rt33{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 440px;
-    margin-top: 190px;
-}
-.contact {
+  .contact {
     font-family: Arial, sans-serif;
     color: #333;
     text-align: center;
     padding: 40px 20px;
     overflow-x: hidden;
-    overflow-y: hidden;
   }
   
   .contact-header {
@@ -41,38 +20,6 @@
     margin-bottom: 50px;
   }
   
-  .contact-card {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: #333;
-    transition: 0.3s;
-  }
-  
-  .contact-card:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .contact-card h3 {
-    margin: 0;
-    font-size: 1rem;
-  }
-  
-  .contact-card p {
-    margin: 0;
-    font-size: 0.9rem;
-  }
-  
-
-
-
-
   .contact-banner {
     width: 100%;
     max-height: 300px;
@@ -122,7 +69,7 @@
     color: #666;
   }
   
-  .contact-details div {
+  .contact-details {
     margin-top: 20px;
   }
   
@@ -133,99 +80,189 @@
     border-radius: 16px;
     font-size: 1.1rem;
     color: #333;
-   gap: 10px;
+    gap: 10px;
+    margin-top: 30px;
+    cursor: pointer;
   }
   
-  .contact-details h3{
+  .contact-details h3 {
     margin-left: 75px;
     margin-top: 20px;
   }
-  .fa{
+  
+  .fa {
     width: 40px;
-    height:40px;
+    height: 40px;
     margin-left: 10px;
     margin-top: -30px;
-    
   }
-  .contact-details p{
+  
+  .contact-details p {
     display: flex;
     align-items: center;
     gap: 15px;
   }
-  .contact-location {
-    position: relative;
-    margin-top: 50px;
+  
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-overlay.active {
+    display: flex;
+  }
+  .modal {
+    margin-top: 140px;
+    margin-left: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    max-height: 450px;
+    z-index: 1000;
+  }
+ .modal i{
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1e1f1e;
+ }
+ .modal h3{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #1c1c19;
+ }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .modal {
+    background-color: #ffffff; /* Ак фон */
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
-  .location-bg {
-    position: relative;
-    width: 1000px;
-    margin-left: -25px;
-    border-radius: 10px;
+  .modal h2 {
+    color: #274C5B; /* Жашыл-көк */
+    font-weight: bold;
   }
   
-  .location-info {
-    position: absolute;
-   z-index: 10;
-   width: 390px;
-   height: 400px;
-   margin-left: 700px;
-   margin-top: 70px;
-   background-color: #EEEEEE;
-   border-radius: 20px;
-   padding: 20px;
+  .modal i {
+    color: #555; /* Жумшак боз */
+    font-style: italic;
   }
   
-  .location-info i {
-    font-size: 23px;
-    color: #2c6e49;
-    margin-top: 10px;
-    margin-right: 200px;
+  .modal h3 {
+    color: #2C6E49; /* Терең жашыл */
+    font-weight: 600;
   }
-  .location-info h1{
-   margin-right: 130px;
-   margin-top: 10px;
+  
+  .modal button {
+    background-color: #274C5B; /* Кочкул жашыл-көк */
+    color: white;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
   }
-  .location-info h3 {
+  
+  .modal button:hover {
+    background-color: #3A6B5E; /* Жумшак пастел жашыл */
+  }
+  
+  .modal .zap {
+    margin-top: 20px;
+    color: #274C5B;
+    font-size: 1.8rem;
+    
+  }
+  .modal .x{
+    margin-top: 30px;
+    color: #274C5B;
+    font-size: 1.8rem;
+  }
+ 
+  .close-btn {
     font-size: 1.5rem;
+    background: none;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    color: #274C5B;
+    
+  }
+  .close-btnn {
+    font-size: 1.5rem;
+    background: none;
+    width:180px;
+    border: none;
+    cursor: pointer;
+    color: #274C5B;
+    
+  }
+  .modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .modal input, .modal textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
     margin-top: 20px;
   }
   
-  .location-info p {
-    font-size: 1rem;
-    color: #444;
-    margin-top: 5px;
-    line-height: 28px;
+  .modal button:hover {
+    background-color: #2c6e49;
   }
-  .its{
-    margin-left: -125px;
-  }
-  .social-icon {
-    margin-top: 40px;
-    list-style: none;
+  
+ 
+  .loggo {
     display: flex;
-    gap: 10px;
-    margin-left: -11px;
-}
-
-.icons {
-    width: 50px;
-    height:50px;
-    margin-left: 15px;
-}
-
-.icons:hover {
-    color: #6a994e;
-}
-.new{
-    margin-right: 90px;
-}
-.york{
-    margin-right: 60px;
-}
-.neew{
-    margin-right: 120px;
-}
-.yoork{
-    margin-left: 5px;
-}
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .loggo img {
+    height: 80px;
+    margin-right: 15px;
+  }
+  
+  .Organick {
+    font-family: 'Arial', sans-serif;
+    font-size: 33px;
+    color: #333;
+  } 
+  
+ .contact-details a{
+  text-decoration: none;
+ }

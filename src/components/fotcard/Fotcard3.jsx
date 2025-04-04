@@ -20,7 +20,7 @@ function Fotcard3() {
       <img src={four} />
       <h1>Page not found</h1>
       <p>The page you are looking for doesn't exist or has been moved</p>
-      <Link to="/">
+      <Link onClick={() => window.scrollTo(0, 0)} to="/">
       <button className='Default1'>
       <h3> Go to Homepage</h3>
       <HiArrowSmRight/>

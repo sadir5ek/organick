@@ -5,12 +5,11 @@
     font-family: 'Roboto' sans-serif;
 } 
  .container{
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 .img1{
-    width: 1440px;
-    margin-left: -20px;
+    width: 100%;
     margin-top: 100px;
 }
 .surot2{
@@ -19,6 +18,10 @@
 }
 .block1{
     position: relative;
+}
+.block1 a{
+    text-decoration: none;
+    
 }
 .block1 h1{
     text-align: center;
@@ -72,6 +75,7 @@
     text-decoration: none;
     font-weight: bold;
     margin-top: 30px;
+    cursor: pointer;
     margin-left: 650px;
    
 }

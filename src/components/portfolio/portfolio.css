@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .portfolio{
-    width: 1400px;
+    width: 100%;
     margin: auto;
     position: relative;
     margin-top: 100px;
 }
 .portfolio1 .St{
-    width: 1400px;
+    width: 100%;
 }
 .rtv1{
     width: 110px;
@@ -33,7 +33,7 @@
     margin-top: 160px;
 }.rtv4{
     font-size: 40px;
-    margin-left: 496px;
+    margin-left: 556px;
     margin-top: 150px;
     position: absolute;
 }

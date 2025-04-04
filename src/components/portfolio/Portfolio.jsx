@@ -23,7 +23,7 @@ function Portfolio() {
         <img src={Standard} className='St' />
       </div>
       <div className="portfolio2">
-        <Link to="/pcard1">
+        <Link onClick={() => window.scrollTo(0, 0)} to="/pcard1">
         <div className="cardt">
             <img src={image1} className="cardt-image" />
             <div>.</div>
@@ -31,7 +31,7 @@ function Portfolio() {
             <h1 className="cardt-description">Green & Tasty Lemon</h1>
           </div>
         </Link>
-          <Link to="/pcard2">
+          <Link onClick={() => window.scrollTo(0, 0)} to="/pcard2">
           <div className="cardt">
             <img src={image2} className="cardt-image" />
             <div>.</div>
@@ -39,7 +39,7 @@ function Portfolio() {
             <h1 className="cardt-description">Organic Carrot</h1>
           </div>
         </Link>
-          <Link to="/pcard3">
+          <Link onClick={() => window.scrollTo(0, 0)} to="/pcard3">
           <div className="cardt">
             <img src={image3} className="cardt-image" />
             <div>.</div>
@@ -47,7 +47,7 @@ function Portfolio() {
             <h1 className="cardt-description">Organic Betel Leaf</h1>
           </div>
         </Link>
-          <Link to="/pcard4">
+          <Link onClick={() => window.scrollTo(0, 0)} to="/pcard4">
           <div className="cardt">
             <img src={image4} className="cardt-image" />
             <div>.</div>
@@ -55,7 +55,7 @@ function Portfolio() {
             <h1 className="cardt-description">Natural Tommato </h1>
           </div>
         </Link>
-          <Link to="/pcard5">
+          <Link onClick={() => window.scrollTo(0, 0)} to="/pcard5">
           <div className="cardt">
             <img src={image5} className="cardt-image" />
             <div>.</div>
@@ -63,7 +63,7 @@ function Portfolio() {
             <h1 className="cardt-description">Black Raspberry</h1>
           </div>
         </Link>
-          <Link to="/pcard6">
+          <Link onClick={() => window.scrollTo(0, 0)} to="/pcard6">
           <div className="cardt">
             <img src={image6} className="cardt-image" />
             <div>.</div>

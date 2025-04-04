@@ -10,12 +10,12 @@ function Ourteam() {
      <img src={surot1} className='surot1' />
      <div className="team">
       
-      <div className='surot-cards-text'>
+      <div className='surot-cards-textt'>
         <img src={surot2} alt="" />
      <h1>Our Organic Experts</h1>
      <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's  <br /> standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
      </div>
-   <div className='cart' >   
+   <div className='cartt' >   
       {cart.map((item) => (
        <div key={item.id} className='surot-card'>
          <img src={item.image} alt={item.name}  className='surot-card-image'/>

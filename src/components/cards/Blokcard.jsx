@@ -1,5 +1,5 @@
 import React from 'react'
-import blok1 from '../../assets/blog/card3.png'
+import blok1 from '../../assets/blog/Health-Benefits-of-Carrots1.webp'
 import './blogcard.css'
 import Blogg from '../../assets/blog/blog.png'
 import b1 from '../../assets/blog/b1.svg'

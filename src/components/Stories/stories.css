@@ -13,17 +13,17 @@
     gap: 16px;
   }
     .story-item {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 120px;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid rgb(63, 252, 11);
     cursor: pointer;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px #e1070733;
     
  
-    background-image: url('https://avatars.mds.yandex.net/i?id=ee36cc7cff0eb92b4212b9912f3318fb_l-5253972-images-thumbs&n=13');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8GZWrCJpoEPr_KjCKX2ZcINZwGpr4M-YqQ&s');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 

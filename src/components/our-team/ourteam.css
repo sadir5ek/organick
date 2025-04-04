@@ -14,12 +14,12 @@
     margin-top: 110px;
     margin-left: -35px;
 }
-    .cart{
+    .cartt{
     width: 1440px;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 30px;
+    margin-top: 70px;
    
 }
 .surot-cards-text{

@@ -25,7 +25,7 @@ function About() {
     <div className='container'>
 
       
-        <img src={surot1} className='surot1' alt="Banner" />
+        <img src={surot1} className='surot11'/>
       
       <div className='surot-about'>
         <div className="surot-images">
@@ -56,7 +56,7 @@ function About() {
             </div>
           </div>
 
-          <Link to="/services" className='surot-button'>
+          <Link onClick={() => window.scrollTo(0, 0)} to="/services" className='surot-button'>
             Explore More <HiArrowRightCircle className='surot-icon-btn' />
           </Link>
         </div>
@@ -93,7 +93,7 @@ function About() {
           ))}
         </div>
       </div>
-       <div className="surot-cards-text">
+       <div className="surot-cards-textt">
         <h1>Our Organic Experts</h1>
         <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's  <br /> standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
         </div>

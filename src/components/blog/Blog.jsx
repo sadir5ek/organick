@@ -9,9 +9,9 @@ import { FaArrowCircleRight } from "react-icons/fa"
 import { IoPersonSharp } from "react-icons/io5";
 import blok1 from '../../assets/Photo91.png'
 import blok2 from '../../assets/Photo (1).png'
-import blok3 from '../../assets/blog/card3.png'
+import blok3 from '../../assets/blog/card5.png'
 import blok4 from '../../assets/blog/grean-tea.jpeg'
-import blok5 from '../../assets/blog/card5.png'
+import blok5 from '../../assets/blog/Health-Benefits-of-Carrots1.webp'
 import blok6 from '../../assets/blog/product.jpg'
 import { Link } from 'react-router-dom'
 function Blog() {
@@ -50,7 +50,7 @@ function Blog() {
                 <h3>Everything You Need to Know  Organik</h3>
                 <p>Organic farming is the only way that you still  <br 
                 /> experience the real world.</p>
-                  <Link to="/blogcard/:id">
+                  <Link onClick={() => window.scrollTo(0, 0)} to="/blogcard/:id">
                   <button className='readd'>
                    <h3>View More</h3>
                    <FaArrowCircleRight />
@@ -70,7 +70,7 @@ function Blog() {
                 <h3>Benefits of Orgnic Green Tea</h3>
                 <p>They believe our organick and we are success <br /> ful in  fulfilling 
                  their beliefs.</p>
-                 <Link to="/bloccard/:id">
+                 <Link onClick={() => window.scrollTo(0, 0)} to="/bloccard/:id">
                  <button className='redd'>
                   <h3>View More</h3>
                   <FaArrowCircleRight />
@@ -90,7 +90,7 @@ function Blog() {
                 <h3>Orgnic Fruits: Surprising Benefits  Facts</h3>
                 <p>The world of nature has grown on the principles <br /> of health, 
                  ecology, and care.</p>
-                  <Link to="/blockcard/:id">
+                  <Link onClick={() => window.scrollTo(0, 0)} to="/blockcard/:id">
                   <button className='readt'>
                    <h3>View More</h3>
                    <FaArrowCircleRight />
@@ -126,7 +126,7 @@ function Blog() {
                 <h3>Health Benefits of Wild Carrots</h3>
                 <p>This is the place where you need to choose the <br /> natural 
                  product need.</p>
-                 <Link to="/blokcard/:id">
+                 <Link onClick={() => window.scrollTo(0, 0)} to="/blokcard/:id">
                  <button className='readd'>
                   <h3>View More</h3>
                   <FaArrowCircleRight />
@@ -144,7 +144,7 @@ function Blog() {
                 <h3>SuperFood You Should EatFreshly</h3>
                 <p>No use of any chemicals you will end up with <br /> fresh and 
                  organic vegetables.</p>
-                 <Link to="/blokkard/:id">
+                 <Link onClick={() => window.scrollTo(0, 0)} to="/blokkard/:id">
                  <button className='readd'>
                   <h3>View More</h3>
                   <FaArrowCircleRight />
@@ -163,7 +163,7 @@ function Blog() {
                 <h3>Work Process of Organic Farming</h3>
                 <p>All the fruits are grown without the use of any pesticides 
                  and other chemicals.</p>
-                 <Link to="/blokard/:id">
+                 <Link onClick={() => window.scrollTo(0, 0)} to="/blokard/:id">
                  <button className='readd'>
                   <h3>View More</h3>
                   <FaArrowCircleRight />

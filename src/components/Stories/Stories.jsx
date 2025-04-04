@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import qr from '../../assets/homeee/video2.mp4';
+import qr from '../../assets/homeee/video1.mp5.mp4';
 import video1 from '../../assets/homeee/video1.mp4';
-import video2 from '../../assets/homeee/fruct1.jpg';
+import video2 from '../../assets/homeee/video.mp55.mp4';
 import video3 from '../../assets/homeee/brown.png';
 import tama from '../../assets/homeee/storis2.mp4';
 import './stories.css';
@@ -11,12 +11,12 @@ export default function Stories() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState(0);
   const videoRef = useRef(null);
-  const [storyDuration, setStoryDuration] = useState(5000); // Default 5 секунд сүрөттөр үчүн
+  const [storyDuration, setStoryDuration] = useState(5000); 
 
   const stories = [
     { id: 1, type: "video", src: qr, title: "Сторис 1" },
     { id: 2, type: "video", src: video1, title: "Сторис 2" },
-    { id: 3, type: "image", src: video2, title: "Сторис 3" },
+    { id: 3, type: "video", src: video2, title: "Сторис 3" },
     { id: 4, type: "image", src: video3, title: "Сторис 4" },
     { id: 5, type: "video", src: tama, title: "Сторис 5" },
   ];
@@ -59,7 +59,6 @@ export default function Stories() {
               setCurrentIndex(index);
             }}
           >
-            <img src={story.src} className="story-img" />
           </div>
         ))}
       </div>
