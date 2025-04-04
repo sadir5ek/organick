@@ -66,7 +66,7 @@ function Contact() {
       {isThankYouOpen && (
         <div className="modal-overlay active">
           <div className="modal">
-      <div className="logo">
+      <div className="loogo">
         <img src={logo} alt="Logo" />
         <h1 className='Organick'>Organick</h1>
      </div>

@@ -41,7 +41,7 @@ function Header() {
                </ul>
             </div>
             <div className="cart-container">
-               <Link to="/cardPage" className="cart-link">
+               <Link onClick={() => window.scrollTo(0, 0)} to="/cardPage" className="cart-link">
                   <div className="icon-wrapper">
                      <CiShoppingCart className="cart-icon" />
                   </div>

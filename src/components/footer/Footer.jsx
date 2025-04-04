@@ -56,8 +56,8 @@ function Footer() {
           <div className="social-icons">
             <a href="https://www.instagram.com/"><img src={icon1} className="icon" /></a>
             <a href="https://www.facebook.com/?locale=ru_RU"><img src={icon2} className="icon" /></a>
-            <a href="FaPinterestP"><img src={icon3} className="icon" /></a>
-            <a href="FaPinterestP"><img src={icon4} className="icon" /></a>
+            <a href="https://x.com/"><img src={icon3} className="icon" /></a>
+            <a href="https://www.pinterest.com/"><img src={icon4} className="icon" /></a>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Copyright © Organick | Designed by <a href="#">VictorFlow</a> - Powered by <a href="#">Webflow</a></p>
+        <p>Copyright © Organick | Designed by <a href="https://www.victorflow.com/">VictorFlow</a> - Powered by <a href="https://www.victorflow.com/">Webflow</a></p>
       </div>
     </div>
   );

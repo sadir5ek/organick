@@ -101,10 +101,6 @@ function Blog() {
               <img src={blok2} />
                 </div> 
             </div>
-
-
-
-
             <div className="blokk9-cardss">
               <div className="nov">
               <h3>25</h3>
