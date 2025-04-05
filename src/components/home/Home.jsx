@@ -79,7 +79,7 @@ function Home() {
           of life</h1> 
            
           
-          <Link to="about" className='battun'>
+          <Link onClick={() => window.scrollTo(0, 0)} to="about" className='battun'>
             <button className='button1'>
               <h4 className='nows'>Explore Now</h4>
               <HiArrowSmRight className='icon1' />
@@ -134,7 +134,7 @@ function Home() {
                 industry. Lorem Ipsum</p>
             </div>
           </div>
-          <Link to="shop">
+          <Link onClick={() => window.scrollTo(0, 0)} to="shop">
           <button className='shop-now'>
             <h4>Shop Now</h4>
             <HiArrowSmRight className='ctrelca' />
@@ -158,7 +158,7 @@ function Home() {
                 <Product key={index} products={item} />
               ))}
             </div>
-            <Link to="shop">
+            <Link onClick={() => window.scrollTo(0, 0)} to="shop">
             <button className='load'>
               <h3>Load More </h3>
               <FaArrowCircleRight />
@@ -223,7 +223,7 @@ function Home() {
             <h1>We Offer Organic For You</h1>
           </div>
           <div className='wiew'>
-            <Link to="shop">
+            <Link onClick={() => window.scrollTo(0, 0)} to="shop">
             <button className='View'>
               <h3>View All Product</h3>
               <FaArrowCircleRight />
@@ -240,6 +240,8 @@ function Home() {
       <div className="block7">
         <div className="blokk-carrd7">
         <div className="block7-card">
+          <div className='seven'>
+
           <div></div>
           <i>Eco Friendly</i>
           <h1 className='Frien'>Econis is a Friendly </h1>
@@ -255,6 +257,7 @@ function Home() {
       <p className='set'>  doloremque laudantium. Sed ut perspiciatis.</p>
         </div>
         </div>
+        </div>
         <div className="block7-left">
             <img src={block7} />
         </div>
@@ -262,27 +265,7 @@ function Home() {
             
         </div>
       </div>
-      {/* <div className="block8">
-        <div className="block8-card1">
-          <Link to="shop">
-          <button>Organic Juice</button>
-          </Link>
-          <img src={juice} />
-        </div>
-        <div className="block8-card2">
-          <Link to="shop">
-          <button>Organic Food</button>
-          </Link>
-        <img src={food} />
-        </div>
-        <div className="block8-card3">
-          <Link to="shop">
-          <button>Nuts Cookis</button>
-          </Link>
-        <img src={cookis} />
-        <h1>.</h1>
-        </div>
-      </div> */}
+  
       <div className="block9">
         <div className="New">
           <div className="News">
@@ -290,7 +273,7 @@ function Home() {
             <h1>Discover weekly content about <br />
               organic food, & more</h1>
           </div>
-          <Link to="blog">
+          <Link onClick={() => window.scrollTo(0, 0)} to="blog">
           <div className="more">
             <h3>More News</h3>
             <FaArrowCircleRight />
@@ -315,7 +298,7 @@ function Home() {
             <h3>The Benefits of D & How to Get It</h3>
             <p>Simply dummy  of the printing and typesetting <br />
              industry. Lorem Ipsum</p>
-             <Link to="/blogcard/:id">
+             <Link onClick={() => window.scrollTo(0, 0)} to="/blogcard/:id">
              <button className='read'>
               <h3>Read More</h3>
               <FaArrowCircleRight />
@@ -333,7 +316,7 @@ function Home() {
             <h3>The Benefits of D & How to Get It</h3>
             <p>Simply dummy  of the printing and typesetting <br />
              industry. Lorem Ipsum</p>
-             <Link to="/blockcard/:id">
+             <Link onClick={() => window.scrollTo(0, 0)} to="/blockcard/:id">
              <button className='read'>
               <h3>Read More</h3>
               <FaArrowCircleRight />

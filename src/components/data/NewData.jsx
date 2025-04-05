@@ -1,7 +1,7 @@
-import MBean from '../../assets/homeee/Photo (3).svg'
-import Brown from '../../assets/homeee/Photo (4).svg'
-import Onion from '../../assets/homeee/Photo (5).svg'
-import Cabbage from '../../assets/homeee/Photo (6).svg'
+import MBean from '../../assets/homeee/pnggg.webp'
+import Brown from '../../assets/homeee/vvvvvv.avif'
+import Onion from '../../assets/homeee/onnion.jpg'
+import Cabbage from '../../assets/homeee/andaco-kapusta-s.png'
 import { TiShoppingCart } from "react-icons/ti";
 
 export const NewData = [
@@ -18,7 +18,7 @@ export const NewData = [
     id: 14, 
     name: 'Vegetable',
     card: <TiShoppingCart />,
-    userName: 'Brown Hazelnut ',
+    userName: 'Brown Cucember ',
     price: '$12.00', 
     oldPrice: '$20.00',
     img: Brown 

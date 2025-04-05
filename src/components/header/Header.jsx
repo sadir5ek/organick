@@ -17,7 +17,7 @@ function Header() {
    return (
       <div className='header'>
          <div className='container'>
-            <Link to="/">
+            <Link onClick={() => window.scrollTo(0, 0)} to="/">
                <div className="logo">
                   <img src={logo} alt="Logo" />
                   <h1 className='organick'>Organick</h1>
@@ -25,8 +25,8 @@ function Header() {
             </Link>
             <div className="header-left">
                <ul className='id'>
-                  <li><Link to="/">Home</Link></li>
-                  <li><Link to="/about">About</Link></li>
+                  <li><Link onClick={() => window.scrollTo(0, 0)} to="/">Home</Link></li>
+                  <li><Link onClick={() => window.scrollTo(0, 0)} to="/about">About</Link></li>
                   <li>
                      <select className='select' onChange={handleSelectChange}>
                         <option value="/blog">Blog</option>
@@ -36,12 +36,12 @@ function Header() {
                         <option value="/services">Services</option>
                      </select>
                   </li>
-                  <li><Link to="/shop">Shop</Link></li>
-                  <li><Link to="/contact">Contact</Link></li>
+                  <li><Link onClick={() => window.scrollTo(0, 0)} to="/shop">Shop</Link></li>
+                  <li><Link onClick={() => window.scrollTo(0, 0)} to="/contact">Contact</Link></li>
                </ul>
             </div>
             <div className="cart-container">
-               <Link to="/cardPage" className="cart-link">
+               <Link onClick={() => window.scrollTo(0, 0)} to="/cardPage" className="cart-link">
                   <div className="icon-wrapper">
                      <CiShoppingCart className="cart-icon" />
                   </div>

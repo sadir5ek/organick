@@ -21,7 +21,6 @@ import Pfcard3 from "./components/portfolioCard.jsx/Pfcard3";
 import Pfcard4 from "./components/portfolioCard.jsx/Pfcard4";
 import Pfcard5 from "./components/portfolioCard.jsx/Pfcard5";
 import Pfcard6 from "./components/portfolioCard.jsx/Pfcard6";
-import Fotcard1 from "./components/fotcard/fotcard1";
 import Fotcard2 from "./components/fotcard/Fotcard2";
 import Fotcard3 from "./components/fotcard/Fotcard3";
 import Fotcard4 from "./components/fotcard/Fotcard4";
@@ -30,7 +29,7 @@ import Shopcard from "./components/shopcard/Shopcard";
 import Card from "./components/card/Card";
 import Header from "./components/header/Header";
 import Contact from "./components/contact/Contact";
-
+import ScrollToTop from "./ScrollToTop";
 export const myRouter = createBrowserRouter([
     {
         path: '/',
@@ -67,7 +66,7 @@ export const myRouter = createBrowserRouter([
               } ,
               {
                 path: '/contact',  
-                element: <Contact /> 
+                element: <Contact/> 
               },
               {
                 path: '/services',  
@@ -155,7 +154,11 @@ export const myRouter = createBrowserRouter([
               },
               {
                 path: '/fotcard1',
-                element: <Fotcard1/>
+                element: <Fotcard2/>
+              },
+              {
+                path: 'ScrollToTop',
+                element: <ScrollToTop/>
               },
         ]
     }
