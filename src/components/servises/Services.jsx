@@ -15,15 +15,13 @@ import surot7 from '../../assets/servicess/2(1).svg'
 
 
 
-
-
 function Services() {
   return (
     <div className='container'>
         <img src={surot1} className='img1' />
         <div className="block1">
             <img src={surot2} className='surot2' />
-            <h1>Better Agriculture for  <br /> Better Future</h1>
+            <h1 className='hh1'>Better Agriculture for  <br /> Better Future</h1>
 
             <img src={surot3} alt="" className='surot'  />
             <h4 className='h1i'>Dairy Products</h4>
