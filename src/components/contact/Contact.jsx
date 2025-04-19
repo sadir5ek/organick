@@ -32,7 +32,7 @@ function Contact() {
           <div className="contact-details">
             <div className='Massege' onClick={openModal}>
               <h3>Message</h3>
-              <p><FaEnvelope className='fa' /> example@example.com</p>
+              <p><FaEnvelope className='fa' />needhelp@organick.com</p>
             </div>
             <a href="https://web.whatsapp.com/">
             <div>
@@ -49,14 +49,14 @@ function Contact() {
        <div className="modal-overlay active">
        <div className="modal">
          <div className="modal-header">
-           <h2 className='zap'>Заполните форму</h2>
+           <h2 className='zap'>Fill out the form</h2>
            <button className="close-btn" onClick={closeModal}>X</button>
          </div>
          <form onSubmit={submitForm}>
-           <input type="text" placeholder="Имя" required />
-           <input type="text" placeholder="Аккаунт" required />
-           <textarea placeholder="Сообщение" required></textarea>
-           <button type="submit">Отправить</button>
+           <input type="text" placeholder="Name" required />
+           <input type="text" placeholder="Account" required />
+           <textarea placeholder="Message" required></textarea>
+           <button type="submit">Send</button>
          </form>
        </div>
      </div>
@@ -70,11 +70,11 @@ function Contact() {
         <img src={logo} alt="Logo" />
         <h1 className='Organick'>Organick</h1>
      </div>
-            <h2 className='x'>Спасибо!</h2>
-            <i>Мы получили вашу заявку и свяжемся с <br /> вами 
-             в ближайшее время.</i>
-            <h3>Хорошего дня!!</h3>
-            <button className="close-btnn" onClick={closeThankYou}>Закрыть</button>
+            <h2 className='x'>Thank you!</h2>
+            <i>We have received your request and will contact you as soon as possible. <br />
+            </i>
+            <h3>Have a great day!!</h3>
+            <button className="close-btnn" onClick={closeThankYou}>Close</button>
           </div>
         </div>
       )}

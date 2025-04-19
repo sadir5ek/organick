@@ -52,7 +52,7 @@ const Product = ({ products }) => {
           <div className="star-pro">
             <div className="pro-text">
               <h5>{products.oldPrice}</h5>
-              <p>${products.price}</p>
+              <p>{products.price}</p>
             </div>
 
             <div className="star-rating">

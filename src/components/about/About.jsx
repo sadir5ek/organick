@@ -2,8 +2,7 @@ import React from 'react';
 import './about.css';
 import { Link } from 'react-router-dom';
 import { HiArrowRightCircle } from "react-icons/hi2";
-import { BsCircle } from "react-icons/bs";
-
+import { BsCircle } from "react-icons/bs"; 
 import surot1 from '../../assets/About/Banner.svg';
 import surot2 from '../../assets/About/photo.svg';
 import surot3 from '../../assets/About/Photo(1).svg';
@@ -12,28 +11,20 @@ import surot5 from '../../assets/About/Icon.svg';
 import surot6 from '../../assets/About/Icon(1).svg';
 import surot7 from '../../assets/About/WhyChooseus_.svg';
 import surot8 from '../../assets/About/Image(1).svg';
-import surot9 from '../../assets/About/Team.svg';
-
+import surot9 from '../../assets/About/Team.svg'; 
 import { teamcard } from './Card';
 import { cards } from './Card';
 
 function About() {
   return (
-
-   
-
-    <div className='container'>
-
-      
-        <img src={surot1} className='surot11'/>
-      
+    <div className='container'>      
+        <img src={surot1} className='surot11'/> 
       <div className='surot-about'>
         <div className="surot-images">
           <img src={surot2} className='surot2' alt="About Image 1" />
           <img src={surot3} className='surot3' alt="About Image 2" />
           <img src={surot4} className='surot4' alt="About Us" />
-        </div>
-        
+        </div> 
         <div className="surot-text">
           <h1>We do Creative Things for Success</h1>
           <p>

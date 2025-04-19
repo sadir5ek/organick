@@ -28,15 +28,15 @@ function Blog() {
     <div className="blokk9">
             <div className="blokk9-cards">
               <div className="nov">
-              <h3>14</h3>
-              <p>Feb</p>
+              <h3>6</h3>
+              <p>Apr</p>
               </div>
               <div className="noww">
-              <h3>14</h3>
-              <p>Feb</p>
+              <h3>6</h3>
+              <p>Apr</p>
               <div className="novss">
-              <h3>16</h3>
-              <p>Nov</p>
+              <h3>6</h3>
+              <p>Apr</p>
               </div>
               </div>
 
@@ -103,16 +103,16 @@ function Blog() {
             </div>
             <div className="blokk9-cardss">
               <div className="nov">
-              <h3>25</h3>
-              <p>Nov</p>
+              <h3>6</h3>
+              <p>Apr</p>
               </div>
               <div className="noww">
-              <h3>25</h3>
-              <p>Nov</p>
+              <h3>6</h3>
+              <p>Apr</p>
               </div>
               <div className="nowws">
-              <h3>16</h3>
-              <p>Nov</p>
+              <h3>6</h3>
+              <p>Apr</p>
               </div>
               <div className="karrdd">
                 <div className="richh">

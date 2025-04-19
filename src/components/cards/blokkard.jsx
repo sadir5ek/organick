@@ -14,7 +14,7 @@ function Blokkcard() {
             <div className="Kaarrdd1">
                 <div className="Poss">
                 <h4>Posted On:</h4>
-                <h5>Novenber 25, 2022</h5>
+                <h5>April 6, 2025</h5>
                 </div>
                 <h1>Superfood You Should Eat Freshly</h1>
             <p>Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test override matrix <br />

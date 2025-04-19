@@ -11,12 +11,7 @@ import surot4 from '../../assets/servicess/OnlineStore.svg'
 import surot5 from '../../assets/servicess/Delivery.svg'
 import surot6 from '../../assets/servicess/Photo(3).svg'
 import surot7 from '../../assets/servicess/2(1).svg'
-
-
-
-
-
-
+ 
 function Services() {
   return (
     <div className='container'>
@@ -37,7 +32,7 @@ function Services() {
            
            <img src={surot6} className='surot6' />
            <img src={surot7} className='surot7'/>
-           <Link to="/service-single" >
+           <Link onClick={() => window.scrollTo(0, 0)} to="/service-single" >
            <button className='btn'>Explore More</button>
            </Link>
            <Video/>

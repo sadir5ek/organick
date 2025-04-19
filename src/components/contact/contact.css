@@ -152,28 +152,28 @@
     margin-bottom: 20px;
   }
   .modal {
-    background-color: #ffffff; /* Ак фон */
+    background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
   .modal h2 {
-    color: #274C5B; /* Жашыл-көк */
+    color: #274C5B; 
     font-weight: bold;
   }
   
   .modal i {
-    color: #555; /* Жумшак боз */
+    color: #555; 
     font-style: italic;
   }
   
   .modal h3 {
-    color: #2C6E49; /* Терең жашыл */
+    color: #2C6E49; 
     font-weight: 600;
   }
   
   .modal button {
-    background-color: #274C5B; /* Кочкул жашыл-көк */
+    background-color: #274C5B; 
     color: white;
     border-radius: 6px;
     padding: 8px 16px;
@@ -181,7 +181,7 @@
   }
   
   .modal button:hover {
-    background-color: #3A6B5E; /* Жумшак пастел жашыл */
+    background-color: #3A6B5E; 
   }
   
   .modal .zap {

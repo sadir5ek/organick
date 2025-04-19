@@ -35,28 +35,21 @@ import carusel2 from '../../assets/homeee/carusel2.jpg'
 import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import Stories from '../Stories/Stories'
 
-
-
-function Home() {
-
+function Home() { 
   const [activeIndex, setActiveIndex] = useState(0);
   const images = [
     "https://bit.ly/34xczKy",
     "https://bit.ly/3lkp5DW",
-  ];
-
+  ]; 
   const nextSlide = () => {
     setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
+  }; 
   const prevSlide = () => {
     setActiveIndex(
       (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
   };
-  
-  
-
+   
   return (
     <div className='home'>
       <div className="blockk1">
@@ -158,11 +151,7 @@ function Home() {
                 <Product key={index} products={item} />
               ))}
             </div>
-            <Link onClick={() => window.scrollTo(0, 0)} to="shop">
-            <button className='load'>
-              <h3>Load More </h3>
-              <FaArrowCircleRight />
-            </button></Link>
+       
           </div>
         </div>
       </div>
@@ -176,8 +165,8 @@ function Home() {
         <div className={`item ${activeIndex === 0 ? 'active' : ''}`}>
             <img src={carusel} />
             <p>⭐⭐⭐⭐⭐</p>
-          <p className="caption">Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy <br />
-           text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+          <p className="caption">The quality of organic produce is extremely high, the service is second to none and the taste of the food <br />
+          takes me back to my childhood when we were growing our own..</p>
            <h3>Sara Taylor</h3>
            <p>Consumer</p>
         </div>
@@ -265,7 +254,6 @@ function Home() {
             
         </div>
       </div>
-  
       <div className="block9">
         <div className="New">
           <div className="News">

@@ -62,7 +62,7 @@ const NewProduct = ({ products }) => {
 
         <div className="new-pro-text">
           {products.oldPrice && <h5 style={{ textDecoration: 'line-through', color: 'gray' }}>${products.oldPrice}</h5>}
-          <p>${products.price}</p>
+          <p>{products.price}</p>
 
           <div className="star-rating">
             {[0, 1, 2].map((index) => (
